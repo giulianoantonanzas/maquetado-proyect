@@ -3,11 +3,11 @@ footer{
     border-top: solid;
     //el borde va a depender del diseño, ya que el borde puede ser una imagen
     border-color: $primary-color;
-    background-color: #dfdfdf;
-    .footer-content{
+    background-color: $blocks-background-color;
+    div.footer-content{
         align-items: center;
         margin: 1%;
-        .image{
+        div.image{
             background-image: url('#{$route-img}app-23.png');
             background-size: contain;
             background-repeat: no-repeat;
@@ -15,10 +15,10 @@ footer{
             width: 10em;
             height: 5em;
         }
-        .copyright{
+        div.copyright{
 
         }
-        .ref-links{
+        div.ref-links{
             a{
                 
             }

@@ -1,0 +1,12 @@
+div.one-box {
+    border-top: solid;
+    border-color: $primary-color;
+    background-color: $blocks-background-color;
+    div.one-box-content {
+        height: 150px;
+        align-items: center;
+        .btn{
+            margin-top: 1em;
+        }
+    }
+}

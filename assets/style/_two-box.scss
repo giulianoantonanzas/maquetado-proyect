@@ -1,0 +1,14 @@
+.two-box{
+    .box-container{
+        background-color: $blocks-background-color;
+        border-top: solid;
+        border-color: $primary-color;
+        .content{
+            padding: 4em;
+            .title{
+                color:$primary-color;
+                font-size: 2em;
+            }
+        }
+    }
+}
