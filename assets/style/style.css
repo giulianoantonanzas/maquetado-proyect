@@ -1,3 +1,4 @@
+/*COLORES*/
 * {
   padding: 0;
   margin: 0;
@@ -6,14 +7,19 @@
 }
 
 .btn {
-  background-color: #248181;
+  background-color: #0081A3;
   padding-right: 6em;
   padding-left: 6em;
+  color: #ffffff;
 }
 
 .title {
-  font-size: 2em;
-  color: #1c6363;
+  font-family: Quicksand;
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 50px;
+  color: #003D4C;
 }
 
 .basic-content {
@@ -22,46 +28,49 @@
 }
 
 header div#announcements {
-  background-color: #24814e;
-  height: 2em;
+  background-color: #789C49;
+  height: 51px;
 }
 
 header div#announcements .dropdown-menu {
-  background-color: #24814e;
+  background-color: #789C49;
 }
 
 header div#announcements a {
   color: #ffffff;
 }
 
-.dropdown-toggle::after {
-  margin-top: 0.6em;
-  margin-right: 0.255em;
-  float: left;
-}
-
 nav#mainNav {
-  background-color: #7e2481;
-  height: 4em;
+  background: #755EA5;
+  height: 99px;
 }
 
 nav#mainNav .dropdown-menu {
-  background-color: #7e2481;
+  background-color: #755EA5;
 }
 
 nav#mainNav ul li a {
   color: #ffffff;
 }
 
-@media only screen and (max-width: 1024px) {
-  header div#announcements {
-    display: none;
-  }
-  nav#mainNav div.container {
-    background-color: #7e2481;
-  }
+.navbar-conteiner {
+  width: 100%;
+  margin-left: 260px;
+  margin-right: 260px;
 }
 
+/*
+@media only screen and (max-width: 1024px){
+    //revisar si es que hay que desaparecer el announcements al ser celular
+    header div#announcements{
+        display: none;
+    }
+    nav#mainNav div.container{
+        background-color: $primary-color;
+    }
+}
+*/
+/*COLORES*/
 #masthead {
   width: 100%;
 }
@@ -80,15 +89,9 @@ nav#mainNav ul li a {
   margin-bottom: 6em;
 }
 
-#masthead div.masthead-content div.title {
-  color: #7e2481;
+#masthead div.masthead-content div.main-title {
+  color: #A05FA6;
   font-size: 2em;
-}
-
-#masthead div.masthead-content div.text,
-#masthead div.masthead-content .title,
-#masthead div.masthead-content .sub-title {
-  width: 40%;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -100,19 +103,18 @@ nav#mainNav ul li a {
 }
 
 div.one-box {
-  /*
-    por si se requiere poner espacios
-    */
+  margin-left: 1%;
+  margin-right: 1%;
 }
 
 div.one-box div.one-box-conteiner {
   border-top: solid;
-  border-color: #7e2481;
+  border-color: #755EA5;
   background-color: #dfdfdf;
 }
 
 div.one-box div.one-box-conteiner div.one-box-content {
-  height: 150px;
+  height: 280px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -123,19 +125,22 @@ div.one-box div.one-box-conteiner div.one-box-content .btn {
 }
 
 div.two-box {
-  /*
-    por si se requiere poner espacios
-    */
+  margin-left: 1%;
+  margin-right: 1%;
 }
 
 div.two-box div.box-container {
+  height: 540px;
   background-color: #dfdfdf;
   border-top: solid;
-  border-color: #7e2481;
+  border-color: #755EA5;
 }
 
 div.two-box div.box-container div.content {
-  padding: 4em;
+  margin-left: 117px;
+  margin-right: 117px;
+  margin-top: 62px;
+  margin-bottom: 65px;
 }
 
 div.text-feature div.text-feature-content {
@@ -145,7 +150,7 @@ div.text-feature div.text-feature-content {
 footer {
   height: 6em;
   border-top: solid;
-  border-color: #7e2481;
+  border-color: #755EA5;
   background-color: #dfdfdf;
 }
 

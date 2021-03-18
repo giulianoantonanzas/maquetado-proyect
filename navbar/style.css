@@ -1,0 +1,45 @@
+/*COLORES*/
+header div#announcements {
+  background-color: #789C49;
+  height: 51px;
+}
+
+header div#announcements .dropdown-menu {
+  background-color: #789C49;
+}
+
+header div#announcements a {
+  color: #ffffff;
+}
+
+nav#mainNav {
+  background: #755EA5;
+  height: 99px;
+}
+
+nav#mainNav .dropdown-menu {
+  background-color: #755EA5;
+}
+
+nav#mainNav ul li a {
+  color: #ffffff;
+}
+
+.navbar-conteiner {
+  width: 100%;
+  margin-left: 260px;
+  margin-right: 260px;
+}
+
+/*
+@media only screen and (max-width: 1024px){
+    //revisar si es que hay que desaparecer el announcements al ser celular
+    header div#announcements{
+        display: none;
+    }
+    nav#mainNav div.container{
+        background-color: $primary-color;
+    }
+}
+*/
+/*# sourceMappingURL=style.css.map */

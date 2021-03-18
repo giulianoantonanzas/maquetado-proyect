@@ -1,3 +1,4 @@
+
 #masthead {
     width: 100%;
     div.masthead-content {
@@ -11,15 +12,15 @@
             width: 20em;
             margin-bottom: 6em;
         }
-        div.title {
-            color: $primary-color;
+        div.main-title {
+            color: $primary-color-light;
             font-size: 2em;
         }
         //en caso de que se quite el texto o no, se puede quitar este apartado.
         div.text,
-        .title,
+        .main-title,
         .sub-title {
-            width: 40%;
+            //width: 40%;
         }
     }
 }

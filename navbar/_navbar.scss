@@ -1,6 +1,6 @@
 header div#announcements {
     background-color: $secundary-color;
-    height: 2em;
+    height: 51px;
     .dropdown-menu{
         background-color: $secundary-color;
     }
@@ -9,15 +9,10 @@ header div#announcements {
     }
 }
 
-.dropdown-toggle::after {
-    margin-top: 0.6em;
-    margin-right: 0.255em;
-    float: left;
-}
 
 nav#mainNav {
-    background-color: $primary-color;
-    height: 4em;
+    background: $primary-color;
+    height: 99px;
     .dropdown-menu{
         background-color: $primary-color;
     }
@@ -26,6 +21,13 @@ nav#mainNav {
     }
 }
 
+.navbar-conteiner{
+    width: 100%;
+    margin-left: 260px;
+    margin-right: 260px;
+}
+
+/*
 @media only screen and (max-width: 1024px){
     //revisar si es que hay que desaparecer el announcements al ser celular
     header div#announcements{
@@ -35,3 +37,4 @@ nav#mainNav {
         background-color: $primary-color;
     }
 }
+*/

@@ -1,13 +1,12 @@
 div.one-box {
-    /*
-    por si se requiere poner espacios
-    */
+    margin-left: 1%;
+    margin-right: 1%;
     div.one-box-conteiner {
         border-top: solid;
         border-color: $primary-color;
         background-color: $blocks-background-color;
         div.one-box-content {
-            height: 150px;
+            height: 280px;
             align-items: center;
             .btn {
                 margin-top: 1em;

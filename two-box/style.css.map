@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "ACAA,WAAW;ACAX,AAAA,GAAG,AAAA,QAAQ,CAAC;EACR,WAAW,EAAE,EAAE;EACf,YAAY,EAAE,EAAE;CAanB;;AAfD,AAGI,GAHD,AAAA,QAAQ,CAGP,GAAG,AAAA,cAAc,CAAC;EACd,MAAM,EAAE,KAAK;EACb,gBAAgB,EDKC,OAAO;ECJxB,UAAU,EAAE,KAAK;EACjB,YAAY,EDLL,OAAO;CCYjB;;AAdL,AAQQ,GARL,AAAA,QAAQ,CAGP,GAAG,AAAA,cAAc,CAKb,GAAG,AAAA,QAAQ,CAAC;EACR,WAAW,EAAE,KAAK;EAClB,YAAY,EAAE,KAAK;EACnB,UAAU,EAAE,IAAI;EAChB,aAAa,EAAE,IAAI;CACtB",
+    "sources": [
+        "style.scss",
+        "../assets/style/_vairables.scss",
+        "_two-box.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}

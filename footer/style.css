@@ -1,0 +1,23 @@
+/*COLORES*/
+footer {
+  height: 6em;
+  border-top: solid;
+  border-color: #755EA5;
+  background-color: #dfdfdf;
+}
+
+footer div.footer-content {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 1%;
+}
+
+footer div.footer-content div.image {
+  background-image: url("../image/app-23.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 10em;
+  height: 5em;
+}
+/*# sourceMappingURL=style.css.map */

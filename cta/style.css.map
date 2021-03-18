@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "ACAA,WAAW",
+    "sources": [
+        "style.scss",
+        "../assets/style/_vairables.scss",
+        "_cta.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}

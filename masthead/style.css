@@ -1,0 +1,32 @@
+/*COLORES*/
+#masthead {
+  width: 100%;
+}
+
+#masthead div.masthead-content {
+  margin-left: 1%;
+}
+
+#masthead div.masthead-content div.logo {
+  margin-top: 2em;
+  background-image: url("../image/imgEjemplo.jpeg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 8em;
+  width: 20em;
+  margin-bottom: 6em;
+}
+
+#masthead div.masthead-content div.main-title {
+  color: #A05FA6;
+  font-size: 2em;
+}
+
+@media only screen and (max-width: 1024px) {
+  #masthead .text,
+  #masthead .title,
+  #masthead .sub-title {
+    width: 100% !important;
+  }
+}
+/*# sourceMappingURL=style.css.map */
