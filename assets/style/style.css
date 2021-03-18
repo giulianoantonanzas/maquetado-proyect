@@ -11,6 +11,16 @@
   padding-left: 6em;
 }
 
+.title {
+  font-size: 2em;
+  color: #1c6363;
+}
+
+.basic-content {
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
 header div#announcements {
   background-color: #24814e;
   height: 2em;
@@ -90,35 +100,46 @@ nav#mainNav ul li a {
 }
 
 div.one-box {
+  /*
+    por si se requiere poner espacios
+    */
+}
+
+div.one-box div.one-box-conteiner {
   border-top: solid;
   border-color: #7e2481;
   background-color: #dfdfdf;
 }
 
-div.one-box div.one-box-content {
+div.one-box div.one-box-conteiner div.one-box-content {
   height: 150px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
-div.one-box div.one-box-content .btn {
+div.one-box div.one-box-conteiner div.one-box-content .btn {
   margin-top: 1em;
 }
 
-.two-box .box-container {
+div.two-box {
+  /*
+    por si se requiere poner espacios
+    */
+}
+
+div.two-box div.box-container {
   background-color: #dfdfdf;
   border-top: solid;
   border-color: #7e2481;
 }
 
-.two-box .box-container .content {
+div.two-box div.box-container div.content {
   padding: 4em;
 }
 
-.two-box .box-container .content .title {
-  color: #7e2481;
-  font-size: 2em;
+div.text-feature div.text-feature-content {
+  background-color: #dfdfdf;
 }
 
 footer {

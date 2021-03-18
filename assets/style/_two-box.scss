@@ -1,14 +1,13 @@
-.two-box{
-    .box-container{
+div.two-box{
+    /*
+    por si se requiere poner espacios
+    */
+    div.box-container{
         background-color: $blocks-background-color;
         border-top: solid;
         border-color: $primary-color;
-        .content{
+        div.content{
             padding: 4em;
-            .title{
-                color:$primary-color;
-                font-size: 2em;
-            }
         }
     }
 }
