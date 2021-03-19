@@ -1,5 +1,12 @@
 div.text-feature{
+    background-color: $blocks-background-color;
     div.text-feature-content{
-        background-color: $blocks-background-color;
+        padding-top: 3.5%;
+        padding-bottom: 3.5%;
+        padding-left: 2%;
+        padding-right: 2%;
+        .title{
+            margin-bottom: 2.5%;
+        }
     }
 }

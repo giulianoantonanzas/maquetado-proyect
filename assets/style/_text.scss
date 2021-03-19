@@ -1,0 +1,20 @@
+.title {
+    font-family: Quicksand;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 50px;
+    color: $title-color;
+}
+
+p {
+    color: rgba($color: #000000, $alpha: 0.6);
+    font-family: "Quicksand Medium";
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 1.14px;
+    line-height: 30px;
+}
+b{
+    color: #333333;
+}

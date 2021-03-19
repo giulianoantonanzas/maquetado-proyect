@@ -1,4 +1,37 @@
-div.text-feature div.text-feature-content {
+.title {
+  font-family: Quicksand;
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 50px;
+  color: #003d4c;
+}
+
+p {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: "Quicksand Medium";
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 1.14px;
+  line-height: 30px;
+}
+
+b {
+  color: #333333;
+}
+
+div.text-feature {
   background-color: #dfdfdf;
+}
+
+div.text-feature div.text-feature-content {
+  padding-top: 3.5%;
+  padding-bottom: 3.5%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+div.text-feature div.text-feature-content .title {
+  margin-bottom: 2.5%;
 }
 /*# sourceMappingURL=style.css.map */
