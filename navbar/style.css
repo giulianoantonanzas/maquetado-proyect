@@ -1,7 +1,19 @@
 /*COLORES*/
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 header div#announcements {
   background-color: #789C49;
   height: 51px;
+}
+
+header div#announcements .navbar-collapse {
+  z-index: 1;
+  background-color: #789C49;
 }
 
 header div#announcements .dropdown-menu {
@@ -15,6 +27,14 @@ header div#announcements a {
 nav#mainNav {
   background: #755EA5;
   height: 99px;
+}
+
+nav#mainNav .navbar-collapse {
+  background-color: #755EA5;
+}
+
+nav#mainNav .row {
+  --bs-gutter-x:0;
 }
 
 nav#mainNav .dropdown-menu {
@@ -31,15 +51,14 @@ nav#mainNav ul li a {
   margin-right: 260px;
 }
 
-/*
-@media only screen and (max-width: 1024px){
-    //revisar si es que hay que desaparecer el announcements al ser celular
-    header div#announcements{
-        display: none;
-    }
-    nav#mainNav div.container{
-        background-color: $primary-color;
-    }
+@media only screen and (max-width: 1024px) {
+  .navbar-conteiner {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .navbar-collapse {
+    padding: 10px;
+  }
 }
-*/
 /*# sourceMappingURL=style.css.map */
