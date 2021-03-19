@@ -1,31 +1,41 @@
-/*COLORES*/
-#masthead {
+div#masthead {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
   width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
-#masthead div.masthead-content {
-  margin-left: 1%;
+div#masthead div.row {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
-#masthead div.masthead-content div.logo {
-  margin-top: 2em;
-  background-image: url("../image/imgEjemplo.jpeg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 8em;
-  width: 20em;
-  margin-bottom: 6em;
+div#masthead button.btn {
+  background-color: #0081a3;
+  padding-right: 6em;
+  padding-left: 6em;
+  color: #ffffff;
 }
 
-#masthead div.masthead-content div.main-title {
-  color: #A05FA6;
-  font-size: 2em;
+div#masthead div.masthead-content {
+  width: 100%;
+  margin-left: 4px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+div#masthead div.masthead-content div.main-title {
+  color: #a05fa6;
+  font-size: 2rem;
 }
 
 @media only screen and (max-width: 1024px) {
-  #masthead .text,
-  #masthead .title,
-  #masthead .sub-title {
+  div#masthead .text,
+  div#masthead .main-title,
+  div#masthead .sub-title {
     width: 100% !important;
   }
 }

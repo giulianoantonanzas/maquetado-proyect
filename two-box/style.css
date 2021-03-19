@@ -1,20 +1,52 @@
-/*COLORES*/
-div.two-box {
-  margin-left: 1%;
-  margin-right: 1%;
+.btn {
+  background-color: #0081a3;
+  width: 69%;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 500;
 }
 
-div.two-box div.box-container {
+div.two-box {
+  margin-left: 27px;
+  margin-right: 27px;
+}
+
+div.two-box div.card {
   height: 540px;
   background-color: #dfdfdf;
-  border-top: solid;
-  border-color: #755EA5;
+  border-top: 0.5rem solid #755ea5;
 }
 
-div.two-box div.box-container div.content {
-  margin-left: 117px;
-  margin-right: 117px;
+div.two-box div.card div.card-body {
+  padding: 0;
+  margin-left: 15%;
+  margin-right: 15%;
   margin-top: 62px;
   margin-bottom: 65px;
+}
+
+div.two-box div.card div.card-body .btn {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 10%;
+}
+
+div.two-box div.card div.card-body h3.card-title {
+  font-family: Quicksand;
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 50px;
+  color: #003d4c;
+}
+
+div.two-box div.card div.card-body p {
+  margin-top: 45px;
+  color: rgba(0, 0, 0, 0.5);
+  font-family: 'Quicksand';
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 1.14px;
+  line-height: 30px;
 }
 /*# sourceMappingURL=style.css.map */

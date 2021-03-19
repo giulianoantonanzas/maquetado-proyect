@@ -1,58 +1,64 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-
 header div#announcements {
     background-color: $secundary-color;
     height: 51px;
-    .navbar-collapse{
+    .navbar-collapse {
         z-index: 1;
         background-color: $secundary-color;
     }
-    .dropdown-menu{
+    .dropdown-menu {
         background-color: $secundary-color;
+    }
+    li.nav-link,
+    .dropdown-menu li {
+        text-decoration: underline;
     }
     a {
         color: #ffffff;
     }
 }
 
-
 nav#mainNav {
-    background: $primary-color;
+    background: linear-gradient(0.25turn, $primary-color-light -40%,$primary-color);
     height: 99px;
-    .navbar-collapse {
-        background-color: $primary-color;
+    .row {
+        --bs-gutter-x: 0; //pequeña correccion de boostrap
     }
-    .row{
-        --bs-gutter-x:0;//pequeña correccion de boostrap
-    }
-    .dropdown-menu{
-        background-color: $primary-color;
+    .dropdown-menu {
+        border-top: solid white 3px;
+        background-color: $primary-color-light;
     }
     ul li a {
         color: #ffffff;
     }
 }
 
-.navbar-conteiner{
+.navbar-conteiner {
     width: 100%;
     margin-left: 260px;
     margin-right: 260px;
 }
+hr {
+    margin: 0;
+    border-top: solid rgba(255, 255, 255, 0.645) 1px;
+}
 
-
-@media only screen and (max-width: 1024px){
+@media only screen and (max-width: 1024px) {
     //revisar si es que hay que desaparecer el announcements al ser celular
-    .navbar-conteiner{
+    .navbar-conteiner {
         width: 100%;
         margin-left: 0;
         margin-right: 0;
     }
-    .navbar-collapse{
+    .navbar-collapse {
         padding: 10px;
+    }
+    nav#mainNav .navbar-collapse {
+        background-color: $primary-color;
     }
 }

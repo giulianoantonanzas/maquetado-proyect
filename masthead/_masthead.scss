@@ -1,34 +1,35 @@
 
-#masthead {
+div#masthead {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
     width: 100%;
+    box-sizing: border-box;
+    div.row{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    button.btn {
+        background-color: $tertiary-color;
+        padding-right: 6em;
+        padding-left: 6em;
+        color: #ffffff;
+    }
     div.masthead-content {
-        margin-left: 1%;
-        div.logo {
-            margin-top: 2em;
-            background-image: url("#{$route-img}imgEjemplo.jpeg");
-            background-size: contain;
-            background-repeat: no-repeat;
-            height: 8em;
-            width: 20em;
-            margin-bottom: 6em;
-        }
+        width: 100%;
+        margin-left: 4px;
+        box-sizing: border-box;
         div.main-title {
             color: $primary-color-light;
-            font-size: 2em;
-        }
-        //en caso de que se quite el texto o no, se puede quitar este apartado.
-        div.text,
-        .main-title,
-        .sub-title {
-            //width: 40%;
+            font-size: 2rem;
         }
     }
 }
 
 @media only screen and (max-width: 1024px) {
-    #masthead {
+    div#masthead {
         .text,
-        .title,
+        .main-title,
         .sub-title {
             width: 100% !important;
         }

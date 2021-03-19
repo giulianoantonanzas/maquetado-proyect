@@ -1,23 +1,44 @@
-/*COLORES*/
-div.one-box {
-  margin-left: 1%;
-  margin-right: 1%;
+.btn {
+  background-color: #0081a3;
+  width: 69%;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 500;
 }
 
-div.one-box div.one-box-conteiner {
+div.one-box {
   border-top: solid;
-  border-color: #755EA5;
+  border-color: #755ea5;
+}
+
+div.one-box div.card {
   background-color: #dfdfdf;
 }
 
-div.one-box div.one-box-conteiner div.one-box-content {
+div.one-box div.card div.card-conteiner {
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+div.one-box div.card div.card-body {
   height: 280px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
-div.one-box div.one-box-conteiner div.one-box-content .btn {
+div.one-box div.card div.card-body p {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: 'Quicksand';
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 1.14px;
+  line-height: 30px;
+}
+
+div.one-box div.card div.card-body .btn {
+  color: #ffffff;
   margin-top: 1em;
+  width: 90%;
 }
 /*# sourceMappingURL=style.css.map */

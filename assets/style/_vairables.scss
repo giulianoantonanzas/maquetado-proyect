@@ -1,13 +1,20 @@
-/*COLORES*/
+$primary-color: #755ea5;
+$primary-color-light: #a05fa6;
+$secundary-color: #789c49;
+$tertiary-color: #0081a3;
+$title-color: #003d4c;
+$route-img: "../image/";
 
-$primary-color:#755EA5;
-$primary-color-light:#A05FA6;
-$secundary-color:#789C49;
-$tertiary-color:#0081A3;
-$title-color:#003D4C;
-$route-img:'../image/';
+$two-colores-lineal: linear-gradient(0.25turn, $primary-color-light 10%, $primary-color);
+$blocks-background-color: #dfdfdf;
 
-$border-color:linear-gradient(224.77deg, #755EA5 0%, #A05EA5 100%);
-$blocks-background-color:#dfdfdf;
+$p-color: #333333;
 
-$p-color:#333333;
+$text-propeties: (
+    color: rgba($color: #000000, $alpha: 0.5),
+    font-family: "Quicksand",
+    font-size: 24px,
+    font-weight: 500,
+    letter-spacing: 1.14px,
+    line-height: 30px
+)
