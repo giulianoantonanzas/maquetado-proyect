@@ -20,6 +20,7 @@ div.one-box {
                 line-height: 30px;
             }
             .btn {
+                @import '../assets/style/button';
                 color: #ffffff;
                 margin-top: 1em;
                 width: 90%;

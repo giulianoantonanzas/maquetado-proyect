@@ -1,6 +1,7 @@
 div.text-feature{
     background-color: $blocks-background-color;
     div.text-feature-content{
+        @import '../assets/style/text';
         padding-top: 3.5%;
         padding-bottom: 3.5%;
         padding-left: 2%;

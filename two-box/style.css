@@ -7,8 +7,8 @@
 }
 
 div.two-box {
-  margin-left: 27px;
-  margin-right: 27px;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 
 div.two-box div.card {
@@ -44,7 +44,7 @@ div.two-box div.card div.card-body p {
   margin-top: 45px;
   color: rgba(0, 0, 0, 0.5);
   font-family: 'Quicksand';
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 500;
   letter-spacing: 1.14px;
   line-height: 30px;

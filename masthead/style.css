@@ -1,35 +1,74 @@
 div#masthead {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   overflow: hidden;
   margin: 0;
   padding: 0;
   width: 100%;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  position: absolute;
+  height: 100%;
+  background-image: url("../assets/image/0_home_general/curve_background.svg");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-size: 70% !important;
+  background-size: contain;
 }
 
-div#masthead div.row {
-  width: 100%;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-div#masthead button.btn {
+div#masthead .btn {
   background-color: #0081a3;
-  padding-right: 6em;
-  padding-left: 6em;
+  width: 69%;
   color: #ffffff;
+  font-size: 24px;
+  font-weight: 500;
 }
 
 div#masthead div.masthead-content {
-  width: 100%;
-  margin-left: 4px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  margin-left: 2%;
+  text-align: left;
+}
+
+div#masthead div.masthead-content div.logo {
+  margin-top: 10%;
+  margin-bottom: 30%;
+}
+
+div#masthead div.masthead-content div.logo img {
+  size: 70%;
 }
 
 div#masthead div.masthead-content div.main-title {
+  width: 80%;
   color: #a05fa6;
-  font-size: 2rem;
+  font-size: 56px;
+}
+
+div#masthead div.masthead-content div.main-title h1 {
+  font-family: "Quicksand";
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 65px;
+}
+
+div#masthead div.masthead-content .title {
+  font-family: 'Quicksand';
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 50px;
+  color: #003d4c;
+}
+
+div#masthead div.masthead-content p {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: "Quicksand Medium";
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 1.14px;
+  line-height: 30px;
+}
+
+div#masthead div.masthead-content b {
+  color: #333333;
 }
 
 @media only screen and (max-width: 1024px) {

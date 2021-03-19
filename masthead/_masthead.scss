@@ -1,28 +1,39 @@
-
 div#masthead {
+    box-sizing: border-box;
     overflow: hidden;
     margin: 0;
     padding: 0;
     width: 100%;
-    box-sizing: border-box;
-    div.row{
-        width: 100%;
-        box-sizing: border-box;
-    }
-    button.btn {
-        background-color: $tertiary-color;
-        padding-right: 6em;
-        padding-left: 6em;
-        color: #ffffff;
-    }
+    position: absolute;
+    height: 100%;
+    background-image: url("../assets/image/0_home_general/curve_background.svg");
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: 70% !important;
+    background-size: contain;
+    @import "../assets/style/button";
     div.masthead-content {
-        width: 100%;
-        margin-left: 4px;
-        box-sizing: border-box;
-        div.main-title {
-            color: $primary-color-light;
-            font-size: 2rem;
+        margin-left: 2%;
+        text-align: left;
+        div.logo {
+            margin-top: 10%;
+            margin-bottom: 30%;
+            img {
+                size: 70%;
+            }
         }
+        div.main-title {
+            width: 80%;
+            color: $primary-color-light;
+            font-size: 56px; //56px igual.
+            h1 {
+                font-family: "Quicksand";
+                font-weight: bold;
+                letter-spacing: 0;
+                line-height: 65px;//75px
+            }
+        }
+        @import "../assets/style/text";
     }
 }
 
