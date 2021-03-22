@@ -4,7 +4,7 @@
 }
 
 .text .basic-content .title {
-  font-family: 'Quicksand';
+  font-family: "Quicksand";
   font-size: 40px;
   font-weight: bold;
   letter-spacing: 0;
@@ -23,6 +23,15 @@
 
 .text .basic-content b {
   color: #333333;
+}
+
+@media only screen and (max-width: 768px) {
+  .text .basic-content .title {
+    font-size: 30px;
+  }
+  .text .basic-content p {
+    font-size: 20px;
+  }
 }
 
 .text .basic-content li {

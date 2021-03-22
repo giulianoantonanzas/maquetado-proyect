@@ -1,12 +1,11 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+header {
+    width: 100%;
 }
 
 header div#announcements {
     background-color: $secundary-color;
     height: 51px;
+    width: 100%;
     .navbar-collapse {
         z-index: 1;
         background-color: $secundary-color;
@@ -18,16 +17,29 @@ header div#announcements {
     .dropdown-menu li {
         text-decoration: underline;
     }
+    .navbar-nav {
+        flex-direction: unset;
+        .bd-highlight {
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+    }
     a {
         color: #ffffff;
     }
 }
 
 nav#mainNav {
-    background: linear-gradient(0.25turn, $primary-color-light -40%,$primary-color);
+    background: linear-gradient(0.25turn, $primary-color-light -40%, $primary-color);
     height: 99px;
+    width: 100%;
     .row {
         --bs-gutter-x: 0; //pequeña correccion de boostrap
+    }
+    button.navbar-toggler {
+        position: absolute;
+        right: 0;
+        margin-right: 5%;
     }
     .dropdown-menu {
         border-top: solid white 3px;
@@ -40,25 +52,71 @@ nav#mainNav {
 
 .navbar-conteiner {
     width: 100%;
-    margin-left: 260px;
-    margin-right: 260px;
+    /*margin-left: 260px;
+    margin-right: 260px;*/
+    margin-left: 20%;
+    margin-right: 20%;
 }
 hr {
     margin: 0;
     border-top: solid rgba(255, 255, 255, 0.645) 1px;
 }
 
-@media only screen and (max-width: 1024px) {
-    //revisar si es que hay que desaparecer el announcements al ser celular
-    .navbar-conteiner {
-        width: 100%;
-        margin-left: 0;
-        margin-right: 0;
-    }
-    .navbar-collapse {
-        padding: 10px;
-    }
-    nav#mainNav .navbar-collapse {
-        background-color: $primary-color;
+@media only screen and (max-width: 992px) {
+    nav#mainNav {
+        margin-left: auto;
+
+        .navbar-toggler-icon {
+            filter: invert(100%);
+        }
+        hr {
+            display: none;
+        }
+        .dropdown-menu {
+            border: none !important;
+            background-color: transparent !important;
+        }
+        .navbar-collapse {
+            position: absolute;
+            margin-top: 4.56%;
+            right: 0;
+            z-index: 1;
+            padding: 10%;
+            background: linear-gradient(0.25turn, $primary-color-light -40%, $primary-color);
+        }
     }
 }
+
+@media only screen and (max-width: 768px) {
+    nav#mainNav {
+        width: 81%;
+        height: 70px;
+    }
+    //esto va para el navbar violeta, el logo se posiciona arriba a la izquierda
+    div#masthead div.masthead-content div.logo img {
+        margin-left: -5px;
+        margin-top: -23%;
+        margin-bottom: 42% !important;
+    }
+}
+
+@media only screen and (max-width: 675px) {
+    nav#mainNav {
+        .navbar-collapse {
+            margin-top: 7%;
+        }
+        .navbar-conteiner {
+            width: 40%;
+            margin-left: 0;
+            margin-right: 0;
+        }
+    }
+}
+/*
+@media only screen and (max-width: 768px) {
+    nav#mainNav {
+        .navbar-collapse{
+            margin-top: 10%;
+        }
+    }
+}*/

@@ -11,6 +11,7 @@ div.two-box {
             margin-right: 15%;
             margin-top: 62px;
             margin-bottom: 65px;
+            @import '../assets/style/button';
             .btn {
                 position: absolute;
                 bottom: 0;
@@ -34,5 +35,18 @@ div.two-box {
                 line-height: 30px;
             }
         }
+    }
+}
+
+@media only screen and (max-width: 768px){
+    div.two-box{
+        div.card{
+            margin-bottom: 15%;
+            div.card-body {
+                margin-left: 10%!important;
+                margin-right: 10%!important;
+            }
+        }
+        
     }
 }

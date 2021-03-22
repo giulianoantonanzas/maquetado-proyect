@@ -1,44 +1,123 @@
 div.one-box {
   border-top: solid;
-  border-color: #755ea5;
+  margin-left: 2%;
+  margin-right: 2%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-top: 0.5rem solid #755ea5;
 }
 
 div.one-box div.card {
-  background-color: #dfdfdf;
-}
-
-div.one-box div.card div.card-conteiner {
-  margin-right: 5%;
-  margin-left: 5%;
-}
-
-div.one-box div.card div.card-body {
   height: 280px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  background-color: #dfdfdf;
+  /*
+        div.card-conteiner{
+            margin-right: 5%;
+            margin-left: 5%;
+        }*/
 }
 
-div.one-box div.card div.card-body p {
-  color: rgba(0, 0, 0, 0.5);
-  font-family: 'Quicksand';
-  font-size: 22px;
+div.one-box div.card .title {
+  font-family: "Quicksand";
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 50px;
+  color: #003d4c;
+}
+
+div.one-box div.card p {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: "Quicksand Medium";
+  font-size: 24px;
   font-weight: 500;
   letter-spacing: 1.14px;
   line-height: 30px;
 }
 
-div.one-box div.card div.card-body .btn {
-  color: #ffffff;
-  margin-top: 1em;
-  width: 90%;
+div.one-box div.card b {
+  color: #333333;
 }
 
-div.one-box div.card div.card-body .btn .btn {
+@media only screen and (max-width: 768px) {
+  div.one-box div.card .title {
+    font-size: 30px;
+  }
+  div.one-box div.card p {
+    font-size: 20px;
+  }
+}
+
+div.one-box div.card div.card-body {
+  height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 6%;
+  margin-right: 6%;
+}
+
+div.one-box div.card div.card-body .row {
+  height: 100%;
+}
+
+div.one-box div.card div.card-body img {
+  width: 90%;
+  height: 100%;
+}
+
+div.one-box div.card div.card-body .btn {
   background-color: #0081a3;
-  width: 69%;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  width: 448px;
+  height: 41px;
   color: #ffffff;
   font-size: 24px;
   font-weight: 500;
+}
+
+div.one-box div.card div.card-body .btn::after {
+  content: url("../assets/image/0_home_general/button_chevron.svg");
+  margin-top: 1%;
+  position: relative;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  float: right;
+  vertical-align: middle;
+}
+
+@media only screen and (max-width: 768px) {
+  div.one-box div.card div.card-body .btn {
+    width: 80%;
+    font-size: 20px;
+  }
+}
+
+div.one-box div.card div.card-body .btn {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  color: #ffffff;
+  margin-top: 1em;
+  width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  div.one-box div.card {
+    height: 540px;
+  }
+  div.one-box div.card img {
+    width: 90% !important;
+  }
+  div.one-box div.card div.col-md-5 {
+    height: 250px;
+  }
+  div.one-box div.card div.col-md-5 .btn {
+    width: 80% !important;
+    position: absolute;
+    margin-bottom: 10%;
+    bottom: 0;
+  }
 }
 /*# sourceMappingURL=style.css.map */

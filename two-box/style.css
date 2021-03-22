@@ -1,11 +1,3 @@
-.btn {
-  background-color: #0081a3;
-  width: 69%;
-  color: #ffffff;
-  font-size: 24px;
-  font-weight: 500;
-}
-
 div.two-box {
   margin-left: 2%;
   margin-right: 2%;
@@ -23,6 +15,35 @@ div.two-box div.card div.card-body {
   margin-right: 15%;
   margin-top: 62px;
   margin-bottom: 65px;
+}
+
+div.two-box div.card div.card-body .btn {
+  background-color: #0081a3;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  width: 448px;
+  height: 41px;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+div.two-box div.card div.card-body .btn::after {
+  content: url("../assets/image/0_home_general/button_chevron.svg");
+  margin-top: 1%;
+  position: relative;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  float: right;
+  vertical-align: middle;
+}
+
+@media only screen and (max-width: 768px) {
+  div.two-box div.card div.card-body .btn {
+    width: 80%;
+    font-size: 20px;
+  }
 }
 
 div.two-box div.card div.card-body .btn {
@@ -48,5 +69,15 @@ div.two-box div.card div.card-body p {
   font-weight: 500;
   letter-spacing: 1.14px;
   line-height: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+  div.two-box div.card {
+    margin-bottom: 15%;
+  }
+  div.two-box div.card div.card-body {
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+  }
 }
 /*# sourceMappingURL=style.css.map */

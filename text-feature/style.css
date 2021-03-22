@@ -10,7 +10,7 @@ div.text-feature div.text-feature-content {
 }
 
 div.text-feature div.text-feature-content .title {
-  font-family: 'Quicksand';
+  font-family: "Quicksand";
   font-size: 40px;
   font-weight: bold;
   letter-spacing: 0;
@@ -29,6 +29,15 @@ div.text-feature div.text-feature-content p {
 
 div.text-feature div.text-feature-content b {
   color: #333333;
+}
+
+@media only screen and (max-width: 768px) {
+  div.text-feature div.text-feature-content .title {
+    font-size: 30px;
+  }
+  div.text-feature div.text-feature-content p {
+    font-size: 20px;
+  }
 }
 
 div.text-feature div.text-feature-content .title {
