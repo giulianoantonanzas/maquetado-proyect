@@ -48,6 +48,15 @@ div.one-box {
 
 @media only screen and (max-width: 768px) {
     div.one-box {
+        border-top: 4px solid $primary-color;
+        &:after {
+            position: absolute;
+            left: 32%;
+            right: 0;
+            top: -4px;
+            border-top: 4px solid $primary-color-light;
+            content: "";
+        }
         div.card {
             height: 540px;
             img {

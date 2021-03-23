@@ -88,6 +88,15 @@ div.two-box div.card div.card-body p {
 @media only screen and (max-width: 768px) {
   div.two-box div.card {
     margin-bottom: 15%;
+    border-top: 4px solid #755ea5;
+  }
+  div.two-box div.card:after {
+    position: absolute;
+    left: 32%;
+    right: 0;
+    top: -4px;
+    border-top: 4px solid #a05fa6;
+    content: "";
   }
   div.two-box div.card div.card-body {
     margin-left: 10% !important;

@@ -31,9 +31,6 @@ div#masthead {
         .btn {
             margin-bottom: 10px;
         }
-        div.sub-title {
-            margin-top: 7%;
-        }
         div.main-title {
             width: 80%;
             color: $primary-color-light;
@@ -49,6 +46,7 @@ div#masthead {
             width: 85%;
         }
         div.information {
+            margin-top: 8%;
             @import "../assets/style/text";
             @import "../assets/style/button";
         }
@@ -66,6 +64,9 @@ div#masthead {
                     height: 20%;
                     margin-bottom: 50%;
                 }
+            }
+            .information{
+                margin-top: 20%;
             }
             div.main-title {
                 height: 28%;
@@ -99,9 +100,13 @@ div#masthead {
         div.masthead-content {
             min-height: 250px;
         }
+        div.main-title {
+            margin-top: auto;
+            margin-bottom: auto;
+            height: 22%;
+        }
     }
 }
-
 
 @media only screen and (max-width: 360px) {
     div#masthead {
@@ -114,12 +119,6 @@ div#masthead {
 @media only screen and (min-width: 414px) and (max-width: 768px) {
     div#masthead {
         div.masthead-content {
-            .information {
-                .sub-title,
-                text {
-                    margin-top: 20%;
-                }
-            }
             div.logo {
                 img {
                     width: 25%;
@@ -134,11 +133,8 @@ div#masthead {
 @media only screen and (max-width: 320px) {
     div#masthead {
         div.masthead-content {
-            background-size: 84%;
-            div.main-title {
-                height: 0;
-                margin-top: -1%;
-            }
+            background-size: 89%;
+            
         }
     }
 }

@@ -52,6 +52,15 @@ div.two-box {
     div.two-box {
         div.card {
             margin-bottom: 15%;
+            border-top: 4px solid $primary-color;
+            &:after {
+                position: absolute;
+                left: 32%;
+                right: 0;
+                top: -4px;
+                border-top: 4px solid $primary-color-light;
+                content: "";
+            }
             div.card-body {
                 margin-left: 10% !important;
                 margin-right: 10% !important;

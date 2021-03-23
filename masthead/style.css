@@ -40,10 +40,6 @@ div#masthead div.masthead-content .btn {
   margin-bottom: 10px;
 }
 
-div#masthead div.masthead-content div.sub-title {
-  margin-top: 7%;
-}
-
 div#masthead div.masthead-content div.main-title {
   width: 80%;
   color: #a05fa6;
@@ -59,6 +55,10 @@ div#masthead div.masthead-content div.main-title h1 {
 
 div#masthead div.masthead-content img.main-image {
   width: 85%;
+}
+
+div#masthead div.masthead-content div.information {
+  margin-top: 8%;
 }
 
 div#masthead div.masthead-content div.information .title {
@@ -134,6 +134,9 @@ div#masthead div.masthead-content div.information .btn::after {
     height: 20%;
     margin-bottom: 50%;
   }
+  div#masthead div.masthead-content .information {
+    margin-top: 20%;
+  }
   div#masthead div.masthead-content div.main-title {
     height: 28%;
     display: -webkit-box;
@@ -169,6 +172,11 @@ div#masthead div.masthead-content div.information .btn::after {
   div#masthead div.masthead-content {
     min-height: 250px;
   }
+  div#masthead div.main-title {
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 22%;
+  }
 }
 
 @media only screen and (max-width: 360px) {
@@ -178,10 +186,6 @@ div#masthead div.masthead-content div.information .btn::after {
 }
 
 @media only screen and (min-width: 414px) and (max-width: 768px) {
-  div#masthead div.masthead-content .information .sub-title,
-  div#masthead div.masthead-content .information text {
-    margin-top: 20%;
-  }
   div#masthead div.masthead-content div.logo img {
     width: 25%;
     height: 0%;
@@ -190,11 +194,7 @@ div#masthead div.masthead-content div.information .btn::after {
 
 @media only screen and (max-width: 320px) {
   div#masthead div.masthead-content {
-    background-size: 84%;
-  }
-  div#masthead div.masthead-content div.main-title {
-    height: 0;
-    margin-top: -1%;
+    background-size: 89%;
   }
 }
 
