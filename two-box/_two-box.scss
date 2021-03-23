@@ -1,23 +1,33 @@
 div.two-box {
     margin-left: 2%;
     margin-right: 2%;
+
     div.card {
         height: 540px;
         background-color: $blocks-background-color;
-        border-top: .50rem solid $primary-color;
+        box-sizing: border-box;
+        border-top: 9px solid $primary-color;
+        &:after {
+            position: absolute;
+            left: 32%;
+            right: 0;
+            top: -9px;
+            border-top: 9px solid $primary-color-light;
+            content: "";
+        }
         div.card-body {
             padding: 0;
             margin-left: 15%;
             margin-right: 15%;
             margin-top: 62px;
             margin-bottom: 65px;
-            @import '../assets/style/button';
+            @import "../assets/style/button";
             .btn {
                 position: absolute;
                 bottom: 0;
                 margin-bottom: 10%;
             }
-            h3.card-title{
+            h3.card-title {
                 font-family: Quicksand;
                 font-size: 40px;
                 font-weight: bold;
@@ -25,10 +35,10 @@ div.two-box {
                 line-height: 50px;
                 color: $title-color;
             }
-            p{
+            p {
                 margin-top: 45px;
                 color: rgba($color: #000000, $alpha: 0.5);
-                font-family: 'Quicksand';
+                font-family: "Quicksand";
                 font-size: 22px;
                 font-weight: 500;
                 letter-spacing: 1.14px;
@@ -38,15 +48,14 @@ div.two-box {
     }
 }
 
-@media only screen and (max-width: 768px){
-    div.two-box{
-        div.card{
+@media only screen and (max-width: 768px) {
+    div.two-box {
+        div.card {
             margin-bottom: 15%;
             div.card-body {
-                margin-left: 10%!important;
-                margin-right: 10%!important;
+                margin-left: 10% !important;
+                margin-right: 10% !important;
             }
         }
-        
     }
 }

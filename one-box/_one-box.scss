@@ -1,9 +1,18 @@
 div.one-box {
     border-top: solid;
+    position: relative;
     margin-left: 2%;
     margin-right: 2%;
     box-sizing: border-box;
-    border-top: 0.5rem solid $primary-color;
+    border-top: 9px solid $primary-color;
+    &:after {
+        position: absolute;
+        left: 32%;
+        right: 0;
+        top: -9px;
+        border-top: 9px solid $primary-color-light;
+        content: "";
+    }
     div.card {
         @import "../assets/style/text";
         height: 280px;
@@ -31,7 +40,7 @@ div.one-box {
                 box-sizing: content-box;
                 color: #ffffff;
                 margin-top: 1em;
-                width: 100%;
+                width: 90%;
             }
         }
     }
@@ -40,20 +49,25 @@ div.one-box {
 @media only screen and (max-width: 768px) {
     div.one-box {
         div.card {
-           
             height: 540px;
-            img{
-                width: 90%!important;
+            img {
+                width: 90% !important;
             }
-            div.col-md-5 {
+            div.col-lg-5 {
                 height: 250px;
                 .btn {
-                    width: 80% !important;
+                    width: 76%;
                     position: absolute;
                     margin-bottom: 10%;
                     bottom: 0;
                 }
             }
         }
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    div.one-box div.card div.col-md-5 button.btn {
+        width: 80% !important;
     }
 }

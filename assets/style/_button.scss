@@ -1,8 +1,10 @@
 .btn {
     background-color: $tertiary-color;
     box-sizing: content-box;
-    width: 448px;
-    height: 41px;//55px pero bajo a 41 por que con el content box obtiene ese margen dado la fuente
+    //width: 448px;
+    width: 64.2%;
+    height: max-content;
+    //height: 41px;//55px pero bajo a 41 por que con el content box obtiene ese margen dado la fuente
     color: #ffffff;
     font-size: 24px;
     font-weight: 500;
@@ -22,5 +24,6 @@
     .btn{
         width: 80%;
         font-size: 20px;
+        width: 70%;
     }
 }

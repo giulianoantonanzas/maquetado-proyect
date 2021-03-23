@@ -1,8 +1,11 @@
-.text .basic-content {
-    margin-left: 2%;
-    margin-right: 2%;
-    @import "../assets/style/text";
-    li {
-        color: $primary-color;
+.text {
+    width: 100%;
+    .basic-content {
+        margin-left: 2%;
+        margin-right: 2%;
+        @import "../assets/style/text";
+        li {
+            color: $primary-color;
+        }
     }
 }

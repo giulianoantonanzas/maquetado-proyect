@@ -4,7 +4,7 @@ header {
 
 header div#announcements {
     background-color: $secundary-color;
-    height: 51px;
+    //height: 51px;
     width: 100%;
     .navbar-collapse {
         z-index: 1;
@@ -19,10 +19,6 @@ header div#announcements {
     }
     .navbar-nav {
         flex-direction: unset;
-        .bd-highlight {
-            margin-left: 5%;
-            margin-right: 5%;
-        }
     }
     a {
         color: #ffffff;
@@ -50,7 +46,7 @@ nav#mainNav {
     }
 }
 
-.navbar-conteiner {
+header div#announcements .navbar-conteiner , nav#mainNav .navbar-conteiner {
     width: 100%;
     /*margin-left: 260px;
     margin-right: 260px;*/
@@ -63,11 +59,27 @@ hr {
 }
 
 @media only screen and (max-width: 992px) {
+
+    header div#announcements .navbar-conteiner , header nav#mainNav .navbar-conteiner {
+        margin-left: 3%!important;
+        margin-right: 3%!important;
+    }
+
+    header div#announcements .bd-highlight{
+        margin-left: 3%;
+    }
+
     nav#mainNav {
         margin-left: auto;
+        .navbar-toggler:focus{
+            box-shadow: none;
+        }
 
         .navbar-toggler-icon {
             filter: invert(100%);
+            &:focus{
+                outline:none;
+            }
         }
         hr {
             display: none;
