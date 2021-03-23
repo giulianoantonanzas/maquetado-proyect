@@ -58,6 +58,9 @@ div#masthead {
         div.masthead-content {
             background-size: 82.8%;
             min-height: 500px;
+            div.information{
+                margin-top: 20%!important;
+            }
             div.logo {
                 img {
                     width: 20%;
@@ -65,9 +68,7 @@ div#masthead {
                     margin-bottom: 50%;
                 }
             }
-            .information{
-                margin-top: 20%;
-            }
+            
             div.main-title {
                 height: 28%;
                 display: flex;

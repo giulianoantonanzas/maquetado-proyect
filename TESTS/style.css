@@ -273,13 +273,13 @@ div#masthead div.masthead-content div.information .btn::after {
     background-size: 82.8%;
     min-height: 500px;
   }
+  div#masthead div.masthead-content div.information {
+    margin-top: 20% !important;
+  }
   div#masthead div.masthead-content div.logo img {
     width: 20%;
     height: 20%;
     margin-bottom: 50%;
-  }
-  div#masthead div.masthead-content .information {
-    margin-top: 20%;
   }
   div#masthead div.masthead-content div.main-title {
     height: 28%;
