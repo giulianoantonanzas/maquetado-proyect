@@ -1,9 +1,13 @@
-div.two-box {
+div.two-box-image {
   margin-left: 2%;
   margin-right: 2%;
 }
 
-div.two-box div.card {
+div.two-box-image .col-md-6 {
+  margin-top: 10%;
+}
+
+div.two-box-image div.card {
   height: 540px;
   background-color: #dfdfdf;
   -webkit-box-sizing: border-box;
@@ -11,7 +15,7 @@ div.two-box div.card {
   border-top: 9px solid #755ea5;
 }
 
-div.two-box div.card:after {
+div.two-box-image div.card:after {
   position: absolute;
   left: 32%;
   right: 0;
@@ -20,21 +24,57 @@ div.two-box div.card:after {
   content: "";
 }
 
-div.two-box div.card div.degradee {
+div.two-box-image div.card div.degradee.search {
   width: 100%;
   height: 100%;
   background: linear-gradient(224.77deg, rgba(117, 94, 165, 0), rgba(160, 95, 166, 0.2));
 }
 
-div.two-box div.card div.card-body {
+div.two-box-image div.card div.degradee.search::after {
+  width: 100%;
+  content: url(../assets/image/1_pbd_zsd_home/search_round_icon.svg);
+  top: 0;
+  position: absolute;
+  top: -100px;
+  z-index: 1;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+div.two-box-image div.card div.degradee.dna {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(224.77deg, rgba(117, 94, 165, 0), rgba(160, 95, 166, 0.2));
+}
+
+div.two-box-image div.card div.degradee.dna::after {
+  width: 100%;
+  content: url(../assets/image/1_pbd_zsd_home/dna_round_icon.svg);
+  top: 0;
+  position: absolute;
+  top: -100px;
+  z-index: 1;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+div.two-box-image div.card div.card-body {
   padding: 0;
   margin-left: 15%;
   margin-right: 15%;
-  margin-top: 62px;
+  margin-top: 139px;
   margin-bottom: 65px;
 }
 
-div.two-box div.card div.card-body .btn {
+div.two-box-image div.card div.card-body .btn {
   background-color: #0081a3;
   -webkit-box-sizing: content-box;
           box-sizing: content-box;
@@ -47,7 +87,7 @@ div.two-box div.card div.card-body .btn {
   font-weight: 500;
 }
 
-div.two-box div.card div.card-body .btn::after {
+div.two-box-image div.card div.card-body .btn::after {
   content: url("../assets/image/0_home_general/button_chevron.svg");
   margin-top: 1%;
   position: relative;
@@ -59,20 +99,20 @@ div.two-box div.card div.card-body .btn::after {
 }
 
 @media only screen and (max-width: 768px) {
-  div.two-box div.card div.card-body .btn {
+  div.two-box-image div.card div.card-body .btn {
     width: 80%;
     font-size: 20px;
     width: 70%;
   }
 }
 
-div.two-box div.card div.card-body .btn {
+div.two-box-image div.card div.card-body .btn {
   position: absolute;
   bottom: 0;
   margin-bottom: 10%;
 }
 
-div.two-box div.card div.card-body h3.card-title {
+div.two-box-image div.card div.card-body h3.card-title {
   font-family: Quicksand;
   font-size: 40px;
   font-weight: bold;
@@ -81,8 +121,8 @@ div.two-box div.card div.card-body h3.card-title {
   color: #003d4c;
 }
 
-div.two-box div.card div.card-body p {
-  margin-top: 45px;
+div.two-box-image div.card div.card-body p {
+  margin-top: 7%;
   color: rgba(0, 0, 0, 0.5);
   font-family: "Quicksand";
   font-size: 22px;
@@ -92,11 +132,14 @@ div.two-box div.card div.card-body p {
 }
 
 @media only screen and (max-width: 768px) {
-  div.two-box div.card {
+  div.two-box-image .col-md-6 {
+    margin-top: 20%;
+  }
+  div.two-box-image div.card {
     margin-bottom: 15%;
     border-top: 4px solid #755ea5;
   }
-  div.two-box div.card:after {
+  div.two-box-image div.card:after {
     position: absolute;
     left: 32%;
     right: 0;
@@ -104,9 +147,15 @@ div.two-box div.card div.card-body p {
     border-top: 4px solid #a05fa6;
     content: "";
   }
-  div.two-box div.card div.card-body {
+  div.two-box-image div.card div.card-body {
     margin-left: 10% !important;
     margin-right: 10% !important;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  div.two-box-image .col-md-6 {
+    margin-top: 30%;
   }
 }
 /*# sourceMappingURL=style.css.map */

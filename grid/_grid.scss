@@ -1,0 +1,21 @@
+div.grid {
+    width: 100%;
+    margin-top: 2%;
+    .row {
+        width: 100%;
+        .col {
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    p {
+        margin-top: 10%;
+        margin-bottom: 20%;
+        display: flex;
+        justify-content: center;
+        width: 220px;
+        text-align: center;
+    }
+    @import "../assets/style/text";
+}

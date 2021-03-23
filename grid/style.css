@@ -1,0 +1,62 @@
+div.grid {
+  width: 100%;
+  margin-top: 2%;
+}
+
+div.grid .row {
+  width: 100%;
+}
+
+div.grid .row .col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+div.grid p {
+  margin-top: 10%;
+  margin-bottom: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 220px;
+  text-align: center;
+}
+
+div.grid .title {
+  font-family: "Quicksand";
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 50px;
+  color: #003d4c;
+}
+
+div.grid p {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: "Quicksand Medium";
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 1.14px;
+  line-height: 30px;
+}
+
+div.grid b {
+  color: #333333;
+}
+
+@media only screen and (max-width: 768px) {
+  div.grid .title {
+    font-size: 30px;
+  }
+  div.grid p {
+    font-size: 20px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
