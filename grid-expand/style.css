@@ -20,6 +20,7 @@ div.grid-expand img {
 }
 
 div.grid-expand h3 {
+  text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
