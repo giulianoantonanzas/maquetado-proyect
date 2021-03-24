@@ -727,7 +727,7 @@ div.two-box-image {
 }
 
 div.two-box-image .col-md-6 {
-  margin-top: 10%;
+  margin-top: 13%;
 }
 
 div.two-box-image div.card {
@@ -758,7 +758,7 @@ div.two-box-image div.card div.degradee.search::after {
   content: url(../assets/image/1_pbd_zsd_home/search_round_icon.svg);
   top: 0;
   position: absolute;
-  top: -100px;
+  top: -120px;
   z-index: 1;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -779,7 +779,7 @@ div.two-box-image div.card div.degradee.dna::after {
   content: url(../assets/image/1_pbd_zsd_home/dna_round_icon.svg);
   top: 0;
   position: absolute;
-  top: -100px;
+  top: -120px;
   z-index: 1;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -793,7 +793,7 @@ div.two-box-image div.card div.card-body {
   padding: 0;
   margin-left: 15%;
   margin-right: 15%;
-  margin-top: 139px;
+  margin-top: 120px;
   margin-bottom: 65px;
 }
 
