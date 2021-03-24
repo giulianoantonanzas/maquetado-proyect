@@ -422,7 +422,7 @@ div.one-box div.card b {
 div.one-box div.card div.degradee {
   width: 100%;
   height: 100%;
-  background: linear-gradient(224.77deg, rgba(117, 94, 165, 0), rgba(160, 95, 166, 0.2));
+  background: linear-gradient(224.77deg, rgba(117, 94, 165, 0), rgba(160, 95, 166, 0.01));
 }
 
 div.one-box div.card div.card-body {
@@ -543,7 +543,7 @@ div.two-box div.card:after {
 div.two-box div.card div.degradee {
   width: 100%;
   height: 100%;
-  background: linear-gradient(224.77deg, rgba(117, 94, 165, 0), rgba(160, 95, 166, 0.2));
+  background: linear-gradient(224.77deg, rgba(117, 94, 165, 0), rgba(160, 95, 166, 0.01));
 }
 
 div.two-box div.card div.card-body {
@@ -719,6 +719,448 @@ div.text-feature div.text-feature-content b {
 
 div.text-feature div.text-feature-content .title {
   margin-bottom: 2.5%;
+}
+
+div.two-box-image {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+div.two-box-image .col-md-6 {
+  margin-top: 10%;
+}
+
+div.two-box-image div.card {
+  height: 540px;
+  background-color: #dfdfdf;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-top: 9px solid #755ea5;
+}
+
+div.two-box-image div.card:after {
+  position: absolute;
+  left: 32%;
+  right: 0;
+  top: -9px;
+  border-top: 9px solid #a05fa6;
+  content: "";
+}
+
+div.two-box-image div.card div.degradee.search {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(224.77deg, rgba(117, 94, 165, 0), rgba(160, 95, 166, 0.01));
+}
+
+div.two-box-image div.card div.degradee.search::after {
+  width: 100%;
+  content: url(../assets/image/1_pbd_zsd_home/search_round_icon.svg);
+  top: 0;
+  position: absolute;
+  top: -100px;
+  z-index: 1;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+div.two-box-image div.card div.degradee.dna {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(224.77deg, rgba(117, 94, 165, 0), rgba(160, 95, 166, 0.01));
+}
+
+div.two-box-image div.card div.degradee.dna::after {
+  width: 100%;
+  content: url(../assets/image/1_pbd_zsd_home/dna_round_icon.svg);
+  top: 0;
+  position: absolute;
+  top: -100px;
+  z-index: 1;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+div.two-box-image div.card div.card-body {
+  padding: 0;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 139px;
+  margin-bottom: 65px;
+}
+
+div.two-box-image div.card div.card-body .btn {
+  background-color: #0081a3;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  width: 64.2%;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+div.two-box-image div.card div.card-body .btn::after {
+  content: url("../assets/image/0_home_general/button_chevron.svg");
+  margin-top: 1%;
+  position: relative;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  float: right;
+  vertical-align: middle;
+}
+
+@media only screen and (max-width: 768px) {
+  div.two-box-image div.card div.card-body .btn {
+    width: 80%;
+    font-size: 20px;
+    width: 70%;
+  }
+}
+
+div.two-box-image div.card div.card-body .btn {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 10%;
+}
+
+div.two-box-image div.card div.card-body h3.card-title {
+  font-family: Quicksand;
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 50px;
+  color: #003d4c;
+}
+
+div.two-box-image div.card div.card-body p {
+  margin-top: 7%;
+  color: rgba(0, 0, 0, 0.5);
+  font-family: "Quicksand";
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 1.14px;
+  line-height: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+  div.two-box-image .col-md-6 {
+    margin-top: 20%;
+  }
+  div.two-box-image div.card {
+    margin-bottom: 15%;
+    border-top: 4px solid #755ea5;
+  }
+  div.two-box-image div.card:after {
+    position: absolute;
+    left: 32%;
+    right: 0;
+    top: -4px;
+    border-top: 4px solid #a05fa6;
+    content: "";
+  }
+  div.two-box-image div.card div.card-body {
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  div.two-box-image .col-md-6 {
+    margin-top: 30%;
+  }
+}
+
+div.grid {
+  width: 100%;
+  margin-top: 2%;
+}
+
+div.grid .row {
+  width: 100%;
+}
+
+div.grid .row .col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+div.grid p {
+  margin-top: 10%;
+  margin-bottom: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 220px;
+  text-align: center;
+}
+
+div.grid .title {
+  font-family: "Quicksand";
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 50px;
+  color: #003d4c;
+}
+
+div.grid p {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: "Quicksand Medium";
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 1.14px;
+  line-height: 30px;
+}
+
+div.grid b {
+  color: #333333;
+}
+
+@media only screen and (max-width: 768px) {
+  div.grid .title {
+    font-size: 30px;
+  }
+  div.grid p {
+    font-size: 20px;
+  }
+}
+
+div.grid-expand {
+  margin-right: 2%;
+  margin-left: 2%;
+  margin-top: 2%;
+}
+
+div.grid-expand .row {
+  width: 100%;
+}
+
+div.grid-expand img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+div.grid-expand h3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+div.grid-expand p,
+div.grid-expand h3 {
+  margin-top: 2%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 567px;
+}
+
+div.grid-expand li {
+  color: #0081a3;
+}
+
+div.grid-expand .title {
+  font-family: "Quicksand";
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 50px;
+  color: #003d4c;
+}
+
+div.grid-expand p {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: "Quicksand Medium";
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 1.14px;
+  line-height: 30px;
+}
+
+div.grid-expand b {
+  color: #333333;
+}
+
+@media only screen and (max-width: 768px) {
+  div.grid-expand .title {
+    font-size: 30px;
+  }
+  div.grid-expand p {
+    font-size: 20px;
+  }
+}
+
+div.cta {
+  border-top: solid;
+  position: relative;
+  margin-left: 2%;
+  margin-right: 2%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-top: 9px solid #755ea5;
+}
+
+div.cta:after {
+  position: absolute;
+  left: 32%;
+  right: 0;
+  top: -9px;
+  border-top: 9px solid #a05fa6;
+  content: "";
+}
+
+div.cta div.card {
+  background-color: #dfdfdf;
+}
+
+div.cta div.card .title {
+  font-family: "Quicksand";
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 50px;
+  color: #003d4c;
+}
+
+div.cta div.card p {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: "Quicksand Medium";
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 1.14px;
+  line-height: 30px;
+}
+
+div.cta div.card b {
+  color: #333333;
+}
+
+@media only screen and (max-width: 768px) {
+  div.cta div.card .title {
+    font-size: 30px;
+  }
+  div.cta div.card p {
+    font-size: 20px;
+  }
+}
+
+div.cta div.card div.degradee {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(224.77deg, rgba(117, 94, 165, 0), rgba(160, 95, 166, 0.01));
+}
+
+div.cta div.card div.card-body {
+  height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 6%;
+  margin-right: 6%;
+}
+
+div.cta div.card div.card-body .row {
+  height: 100%;
+}
+
+div.cta div.card div.card-body img {
+  width: 90%;
+  height: 100%;
+}
+
+div.cta div.card div.card-body .btn {
+  background-color: #0081a3;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  width: 64.2%;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+div.cta div.card div.card-body .btn::after {
+  content: url("../assets/image/0_home_general/button_chevron.svg");
+  margin-top: 1%;
+  position: relative;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  float: right;
+  vertical-align: middle;
+}
+
+@media only screen and (max-width: 768px) {
+  div.cta div.card div.card-body .btn {
+    width: 80%;
+    font-size: 20px;
+    width: 70%;
+  }
+}
+
+div.cta div.card div.card-body .btn {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  margin-top: 5%;
+  margin-bottom: 3%;
+  width: 45%;
+}
+
+div.cta div.card div.card-body .title {
+  margin-top: 3%;
+  margin-bottom: 5%;
+}
+
+@media only screen and (max-width: 768px) {
+  div.cta {
+    border-top: 4px solid #755ea5;
+  }
+  div.cta:after {
+    position: absolute;
+    left: 32%;
+    right: 0;
+    top: -4px;
+    border-top: 4px solid #a05fa6;
+    content: "";
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  div.cta div.card button.btn {
+    width: 90% !important;
+  }
 }
 
 footer {

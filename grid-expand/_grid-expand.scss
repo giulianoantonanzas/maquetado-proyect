@@ -1,0 +1,32 @@
+div.grid-expand {
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-top: 2%;
+    .row {
+        width: 100%;
+    }
+    img {
+        display: flex;
+        justify-content: center;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    h3 {
+        display: flex;
+        justify-content: center;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    p,
+    h3 {
+        margin-top: 2%;
+        display: flex;
+        max-width: 567px;
+    }
+    li {
+        color: $tertiary-color;
+    }
+    @import "../assets/style/text";
+}

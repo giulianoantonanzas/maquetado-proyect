@@ -1,0 +1,70 @@
+div.cta {
+    border-top: solid;
+    position: relative;
+    margin-left: 2%;
+    margin-right: 2%;
+    box-sizing: border-box;
+    border-top: 9px solid $primary-color;
+    &:after {
+        position: absolute;
+        left: 32%;
+        right: 0;
+        top: -9px;
+        border-top: 9px solid $primary-color-light;
+        content: "";
+    }
+    div.card {
+        @import "../assets/style/text";
+        background-color: $blocks-background-color;
+        div.degradee {
+            width: 100%;
+            height: 100%;
+            background: $background-degradee;
+        }
+        div.card-body {
+            //height: 280px;
+            height: 100%;
+            align-items: center;
+            margin-left: 6%;
+            margin-right: 6%;
+            .row {
+                height: 100%;
+            }
+            img {
+                width: 90%;
+                height: 100%;
+            }
+            @import "../assets/style/button";
+            .btn {
+                box-sizing: content-box;
+                margin-top: 5%;
+                margin-bottom: 3%;
+                width: 45%;
+            }
+            .title {
+                margin-top: 3%;
+                margin-bottom: 5%;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    div.cta {
+        border-top: 4px solid $primary-color;
+        &:after {
+            position: absolute;
+            left: 32%;
+            right: 0;
+            top: -4px;
+            border-top: 4px solid $primary-color-light;
+            content: "";
+        }
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    div.cta div.card button.btn {
+        width: 90% !important;
+    }
+}
