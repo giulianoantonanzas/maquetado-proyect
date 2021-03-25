@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "style.scss",
+        "../assets/style/_vairables.scss",
+        "_table-green.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}

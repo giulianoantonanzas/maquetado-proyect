@@ -2,27 +2,32 @@
     background-color: $tertiary-color;
     box-sizing: content-box;
     //width: 448px;
-    width: 64.2%;
+    width: 448px;
     height: max-content;
     //height: 41px;//55px pero bajo a 41 por que con el content box obtiene ese margen dado la fuente
     color: #ffffff;
     font-size: 24px;
     font-weight: 500;
-  
+
     &::after {
-        content:url('../assets/image/0_home_general/button_chevron.svg');
+        content: url("../assets/image/0_home_general/button_chevron.svg");
         margin-top: 1%;
         position: relative;
         justify-content: right;
         float: right;
         vertical-align: middle;
-
     }
 }
 
-@media only screen and (max-width: 768px){
-    .btn{
-        width: 80%;
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .btn {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .btn {
+        //width: 80%;
         font-size: 20px;
         width: 70%;
     }

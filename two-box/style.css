@@ -38,7 +38,7 @@ div.two-box div.card div.card-body .btn {
   background-color: #0081a3;
   -webkit-box-sizing: content-box;
           box-sizing: content-box;
-  width: 64.2%;
+  width: 448px;
   height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
@@ -58,9 +58,14 @@ div.two-box div.card div.card-body .btn::after {
   vertical-align: middle;
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  div.two-box div.card div.card-body .btn {
+    width: 70%;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   div.two-box div.card div.card-body .btn {
-    width: 80%;
     font-size: 20px;
     width: 70%;
   }
@@ -81,14 +86,40 @@ div.two-box div.card div.card-body h3.card-title {
   color: #003d4c;
 }
 
-div.two-box div.card div.card-body p {
-  margin-top: 45px;
-  color: rgba(0, 0, 0, 0.5);
+div.two-box div.card div.card-body .title {
   font-family: "Quicksand";
-  font-size: 22px;
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 50px;
+  color: #003d4c;
+}
+
+div.two-box div.card div.card-body p {
+  color: #333333;
+  font-family: "Quicksand Medium";
+  font-size: 24px;
   font-weight: 500;
   letter-spacing: 1.14px;
   line-height: 30px;
+}
+
+div.two-box div.card div.card-body b {
+  color: #333333;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 768px) {
+  div.two-box div.card div.card-body .title {
+    font-size: 30px;
+  }
+  div.two-box div.card div.card-body p {
+    font-size: 20px;
+  }
+}
+
+div.two-box div.card div.card-body p {
+  margin-top: 45px;
 }
 
 @media only screen and (max-width: 768px) {

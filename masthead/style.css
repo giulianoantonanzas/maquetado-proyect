@@ -71,7 +71,7 @@ div#masthead div.masthead-content div.information .title {
 }
 
 div#masthead div.masthead-content div.information p {
-  color: rgba(0, 0, 0, 0.6);
+  color: #333333;
   font-family: "Quicksand Medium";
   font-size: 24px;
   font-weight: 500;
@@ -81,6 +81,7 @@ div#masthead div.masthead-content div.information p {
 
 div#masthead div.masthead-content div.information b {
   color: #333333;
+  font-weight: bold;
 }
 
 @media only screen and (max-width: 768px) {
@@ -96,7 +97,7 @@ div#masthead div.masthead-content div.information .btn {
   background-color: #0081a3;
   -webkit-box-sizing: content-box;
           box-sizing: content-box;
-  width: 64.2%;
+  width: 448px;
   height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
@@ -116,9 +117,14 @@ div#masthead div.masthead-content div.information .btn::after {
   vertical-align: middle;
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  div#masthead div.masthead-content div.information .btn {
+    width: 70%;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   div#masthead div.masthead-content div.information .btn {
-    width: 80%;
     font-size: 20px;
     width: 70%;
   }

@@ -31,7 +31,7 @@ div.cta div.card .title {
 }
 
 div.cta div.card p {
-  color: rgba(0, 0, 0, 0.6);
+  color: #333333;
   font-family: "Quicksand Medium";
   font-size: 24px;
   font-weight: 500;
@@ -41,6 +41,7 @@ div.cta div.card p {
 
 div.cta div.card b {
   color: #333333;
+  font-weight: bold;
 }
 
 @media only screen and (max-width: 768px) {
@@ -80,7 +81,7 @@ div.cta div.card div.card-body .btn {
   background-color: #0081a3;
   -webkit-box-sizing: content-box;
           box-sizing: content-box;
-  width: 64.2%;
+  width: 448px;
   height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
@@ -100,9 +101,14 @@ div.cta div.card div.card-body .btn::after {
   vertical-align: middle;
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  div.cta div.card div.card-body .btn {
+    width: 70%;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   div.cta div.card div.card-body .btn {
-    width: 80%;
     font-size: 20px;
     width: 70%;
   }

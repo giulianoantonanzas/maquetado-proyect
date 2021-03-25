@@ -20,7 +20,7 @@ div.text-feature div.text-feature-content .title {
 }
 
 div.text-feature div.text-feature-content p {
-  color: rgba(0, 0, 0, 0.6);
+  color: #333333;
   font-family: "Quicksand Medium";
   font-size: 24px;
   font-weight: 500;
@@ -30,6 +30,7 @@ div.text-feature div.text-feature-content p {
 
 div.text-feature div.text-feature-content b {
   color: #333333;
+  font-weight: bold;
 }
 
 @media only screen and (max-width: 768px) {

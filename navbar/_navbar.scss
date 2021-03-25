@@ -48,8 +48,6 @@ nav#mainNav {
 
 header div#announcements .navbar-conteiner , nav#mainNav .navbar-conteiner {
     width: 100%;
-    /*margin-left: 260px;
-    margin-right: 260px;*/
     margin-left: 20%;
     margin-right: 20%;
 }
@@ -90,7 +88,7 @@ hr {
         }
         .navbar-collapse {
             position: absolute;
-            margin-top: 4.56%;
+            margin-top: 51px;
             right: 0;
             z-index: 1;
             padding: 10%;
@@ -110,13 +108,14 @@ hr {
         margin-top: -23%;
         margin-bottom: 42% !important;
     }
+
+    .navbar-collapse {
+        margin-top: 37px!important;
+    }
 }
 
 @media only screen and (max-width: 675px) {
     nav#mainNav {
-        .navbar-collapse {
-            margin-top: 7%;
-        }
         .navbar-conteiner {
             width: 40%;
             margin-left: 0;
@@ -124,11 +123,3 @@ hr {
         }
     }
 }
-/*
-@media only screen and (max-width: 768px) {
-    nav#mainNav {
-        .navbar-collapse{
-            margin-top: 10%;
-        }
-    }
-}*/

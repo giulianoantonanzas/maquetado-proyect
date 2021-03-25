@@ -4,7 +4,7 @@ div.two-box-image {
 }
 
 div.two-box-image .col-md-6 {
-  margin-top: 13%;
+  margin-top: 170px;
 }
 
 div.two-box-image div.card {
@@ -78,7 +78,7 @@ div.two-box-image div.card div.card-body .btn {
   background-color: #0081a3;
   -webkit-box-sizing: content-box;
           box-sizing: content-box;
-  width: 64.2%;
+  width: 448px;
   height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
@@ -98,9 +98,14 @@ div.two-box-image div.card div.card-body .btn::after {
   vertical-align: middle;
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  div.two-box-image div.card div.card-body .btn {
+    width: 70%;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   div.two-box-image div.card div.card-body .btn {
-    width: 80%;
     font-size: 20px;
     width: 70%;
   }
@@ -112,8 +117,8 @@ div.two-box-image div.card div.card-body .btn {
   margin-bottom: 10%;
 }
 
-div.two-box-image div.card div.card-body h3.card-title {
-  font-family: Quicksand;
+div.two-box-image div.card div.card-body .title {
+  font-family: "Quicksand";
   font-size: 40px;
   font-weight: bold;
   letter-spacing: 0;
@@ -122,19 +127,33 @@ div.two-box-image div.card div.card-body h3.card-title {
 }
 
 div.two-box-image div.card div.card-body p {
-  margin-top: 7%;
-  color: rgba(0, 0, 0, 0.5);
-  font-family: "Quicksand";
-  font-size: 22px;
+  color: #333333;
+  font-family: "Quicksand Medium";
+  font-size: 24px;
   font-weight: 500;
   letter-spacing: 1.14px;
   line-height: 30px;
 }
 
+div.two-box-image div.card div.card-body b {
+  color: #333333;
+  font-weight: bold;
+}
+
 @media only screen and (max-width: 768px) {
-  div.two-box-image .col-md-6 {
-    margin-top: 20%;
+  div.two-box-image div.card div.card-body .title {
+    font-size: 30px;
   }
+  div.two-box-image div.card div.card-body p {
+    font-size: 20px;
+  }
+}
+
+div.two-box-image div.card div.card-body p {
+  margin-top: 7%;
+}
+
+@media only screen and (max-width: 768px) {
   div.two-box-image div.card {
     margin-bottom: 15%;
     border-top: 4px solid #755ea5;
@@ -150,12 +169,6 @@ div.two-box-image div.card div.card-body p {
   div.two-box-image div.card div.card-body {
     margin-left: 10% !important;
     margin-right: 10% !important;
-  }
-}
-
-@media only screen and (max-width: 450px) {
-  div.two-box-image .col-md-6 {
-    margin-top: 30%;
   }
 }
 /*# sourceMappingURL=style.css.map */

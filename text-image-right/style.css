@@ -1,0 +1,93 @@
+div.text-image-right {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+div.text-image-right div.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+div.text-image-right div.content .image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: -4%;
+  margin-left: 6%;
+  margin-right: 3%;
+}
+
+div.text-image-right .title {
+  font-family: "Quicksand";
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 50px;
+  color: #003d4c;
+}
+
+div.text-image-right p {
+  color: #333333;
+  font-family: "Quicksand Medium";
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 1.14px;
+  line-height: 30px;
+}
+
+div.text-image-right b {
+  color: #333333;
+  font-weight: bold;
+}
+
+div.text-image-right .btn {
+  background-color: #0081a3;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  width: 448px;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+div.text-image-right .btn::after {
+  content: url("../assets/image/0_home_general/button_chevron.svg");
+  margin-top: 1%;
+  position: relative;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  float: right;
+  vertical-align: middle;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  div.text-image-right .btn {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  div.text-image-right .btn {
+    font-size: 20px;
+    width: 70%;
+  }
+}
+
+div.text-image-right .btn {
+  margin-top: 3%;
+}
+
+@media only screen and (max-width: 768px) {
+  div.text-image-right .title {
+    font-size: 24px;
+  }
+  div.text-image-right p {
+    font-size: 20px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

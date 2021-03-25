@@ -39,7 +39,7 @@ div.grid .title {
 }
 
 div.grid p {
-  color: rgba(0, 0, 0, 0.6);
+  color: #333333;
   font-family: "Quicksand Medium";
   font-size: 24px;
   font-weight: 500;
@@ -49,6 +49,7 @@ div.grid p {
 
 div.grid b {
   color: #333333;
+  font-weight: bold;
 }
 
 @media only screen and (max-width: 768px) {
@@ -57,6 +58,33 @@ div.grid b {
   }
   div.grid p {
     font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  div.grid .item img {
+    width: 128px;
+    height: 128px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (max-width: 458px) {
+  div.grid .item img {
+    width: 110px;
+    height: 110px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  div.grid p {
+    width: 160px;
   }
 }
 /*# sourceMappingURL=style.css.map */

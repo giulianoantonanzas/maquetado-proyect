@@ -19,3 +19,30 @@ div.grid {
     }
     @import "../assets/style/text";
 }
+
+@media only screen and (max-width: 768px){
+    div.grid {
+        .item img{
+            width:128px;
+            height: 128px;
+            display: flex;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+}
+
+@media only screen and (max-width: 458px){
+    div.grid {
+        .item img{
+            width:110px;
+            height: 110px;
+            display: flex;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        p{
+            width: 160px;
+        }
+    }
+}

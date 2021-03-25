@@ -1,0 +1,73 @@
+div.number-list ol {
+  counter-reset: li;
+  /* Initiate a counter */
+}
+
+div.number-list ol > li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 2%;
+  margin-left: 4%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 105px;
+  position: relative;
+  list-style: none;
+}
+
+div.number-list ol > li:before {
+  content: counter(li);
+  counter-increment: li;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  left: -2em;
+  width: 105px;
+  height: 105px;
+  color: #755ea5;
+  font-family: Quicksand;
+  font-size: 55px;
+  font-weight: bold;
+  letter-spacing: 2.62px;
+  line-height: 69px;
+  border-radius: 50%;
+  border: 4px solid #755ea5;
+}
+
+div.number-list p {
+  font-family: Quicksand;
+  font-size: 24px;
+  color: #333333;
+  font-weight: 500;
+  letter-spacing: 1.14px;
+  line-height: 30px;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  margin-left: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  div.number-list ol > li {
+    margin-bottom: 8%;
+  }
+  div.number-list ol > li:before {
+    left: -1.3em;
+    width: 85px;
+    height: 85px;
+    font-size: 25px;
+  }
+  div.number-list p {
+    font-size: 20px;
+    margin-left: 70px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
