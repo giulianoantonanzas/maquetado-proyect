@@ -1,4 +1,6 @@
-.title {
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap');
+
+h3.title {
     font-family: "Quicksand";
     font-size: 40px;
     font-weight: bold;
@@ -8,10 +10,10 @@
 }
 
 p {
-    color:  #333333;
-    font-family: "Quicksand Medium";
-    font-size: 24px;
+    color: #333333;
+    font-family: "Quicksand";
     font-weight: 500;
+    font-size: 24px;
     letter-spacing: 1.14px;
     line-height: 30px;
 }
@@ -21,7 +23,7 @@ b {
 }
 
 @media only screen and (max-width: 768px) {
-    .title{
+    .title {
         font-size: 30px;
     }
     p {

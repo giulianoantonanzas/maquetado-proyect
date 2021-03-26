@@ -1,3 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap");
 header {
   width: 100%;
 }
@@ -195,7 +211,7 @@ div#masthead div.masthead-content div.information {
   margin-top: 8%;
 }
 
-div#masthead div.masthead-content div.information .title {
+div#masthead div.masthead-content div.information h3.title {
   font-family: "Quicksand";
   font-size: 40px;
   font-weight: bold;
@@ -206,9 +222,9 @@ div#masthead div.masthead-content div.information .title {
 
 div#masthead div.masthead-content div.information p {
   color: #333333;
-  font-family: "Quicksand Medium";
-  font-size: 24px;
+  font-family: "Quicksand";
   font-weight: 500;
+  font-size: 24px;
   letter-spacing: 1.14px;
   line-height: 30px;
 }
@@ -384,7 +400,7 @@ div.one-box div.card {
   background-color: #dfdfdf;
 }
 
-div.one-box div.card .title {
+div.one-box div.card h3.title {
   font-family: "Quicksand";
   font-size: 40px;
   font-weight: bold;
@@ -395,9 +411,9 @@ div.one-box div.card .title {
 
 div.one-box div.card p {
   color: #333333;
-  font-family: "Quicksand Medium";
-  font-size: 24px;
+  font-family: "Quicksand";
   font-weight: 500;
+  font-size: 24px;
   letter-spacing: 1.14px;
   line-height: 30px;
 }
@@ -608,7 +624,7 @@ div.two-box div.card div.card-body h3.card-title {
   color: #003d4c;
 }
 
-div.two-box div.card div.card-body .title {
+div.two-box div.card div.card-body h3.title {
   font-family: "Quicksand";
   font-size: 40px;
   font-weight: bold;
@@ -619,9 +635,9 @@ div.two-box div.card div.card-body .title {
 
 div.two-box div.card div.card-body p {
   color: #333333;
-  font-family: "Quicksand Medium";
-  font-size: 24px;
+  font-family: "Quicksand";
   font-weight: 500;
+  font-size: 24px;
   letter-spacing: 1.14px;
   line-height: 30px;
 }
@@ -672,7 +688,7 @@ div.two-box div.card div.card-body p {
   margin-right: 2%;
 }
 
-.text .basic-content .title {
+.text .basic-content h3.title {
   font-family: "Quicksand";
   font-size: 40px;
   font-weight: bold;
@@ -683,9 +699,9 @@ div.two-box div.card div.card-body p {
 
 .text .basic-content p {
   color: #333333;
-  font-family: "Quicksand Medium";
-  font-size: 24px;
+  font-family: "Quicksand";
   font-weight: 500;
+  font-size: 24px;
   letter-spacing: 1.14px;
   line-height: 30px;
 }
@@ -720,7 +736,7 @@ div.text-feature div.text-feature-content {
   padding-right: 2%;
 }
 
-div.text-feature div.text-feature-content .title {
+div.text-feature div.text-feature-content h3.title {
   font-family: "Quicksand";
   font-size: 40px;
   font-weight: bold;
@@ -731,9 +747,9 @@ div.text-feature div.text-feature-content .title {
 
 div.text-feature div.text-feature-content p {
   color: #333333;
-  font-family: "Quicksand Medium";
-  font-size: 24px;
+  font-family: "Quicksand";
   font-weight: 500;
+  font-size: 24px;
   letter-spacing: 1.14px;
   line-height: 30px;
 }
@@ -875,7 +891,7 @@ div.two-box-image div.card div.card-body .btn {
   margin-bottom: 10%;
 }
 
-div.two-box-image div.card div.card-body .title {
+div.two-box-image div.card div.card-body h3.title {
   font-family: "Quicksand";
   font-size: 40px;
   font-weight: bold;
@@ -886,9 +902,9 @@ div.two-box-image div.card div.card-body .title {
 
 div.two-box-image div.card div.card-body p {
   color: #333333;
-  font-family: "Quicksand Medium";
-  font-size: 24px;
+  font-family: "Quicksand";
   font-weight: 500;
+  font-size: 24px;
   letter-spacing: 1.14px;
   line-height: 30px;
 }
@@ -961,7 +977,7 @@ div.grid p {
   text-align: center;
 }
 
-div.grid .title {
+div.grid h3.title {
   font-family: "Quicksand";
   font-size: 40px;
   font-weight: bold;
@@ -972,9 +988,9 @@ div.grid .title {
 
 div.grid p {
   color: #333333;
-  font-family: "Quicksand Medium";
-  font-size: 24px;
+  font-family: "Quicksand";
   font-weight: 500;
+  font-size: 24px;
   letter-spacing: 1.14px;
   line-height: 30px;
 }
@@ -1066,7 +1082,7 @@ div.grid-expand li {
   color: #0081a3;
 }
 
-div.grid-expand .title {
+div.grid-expand h3.title {
   font-family: "Quicksand";
   font-size: 40px;
   font-weight: bold;
@@ -1077,9 +1093,9 @@ div.grid-expand .title {
 
 div.grid-expand p {
   color: #333333;
-  font-family: "Quicksand Medium";
-  font-size: 24px;
+  font-family: "Quicksand";
   font-weight: 500;
+  font-size: 24px;
   letter-spacing: 1.14px;
   line-height: 30px;
 }
@@ -1121,7 +1137,7 @@ div.cta div.card {
   background-color: #dfdfdf;
 }
 
-div.cta div.card .title {
+div.cta div.card h3.title {
   font-family: "Quicksand";
   font-size: 40px;
   font-weight: bold;
@@ -1132,9 +1148,9 @@ div.cta div.card .title {
 
 div.cta div.card p {
   color: #333333;
-  font-family: "Quicksand Medium";
-  font-size: 24px;
+  font-family: "Quicksand";
   font-weight: 500;
+  font-size: 24px;
   letter-spacing: 1.14px;
   line-height: 30px;
 }
@@ -1245,6 +1261,837 @@ div.cta div.card div.card-body .title {
   div.cta div.card button.btn {
     width: 90% !important;
   }
+}
+
+.btn {
+  background-color: #0081a3;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  width: 448px;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.btn::after {
+  content: url("../assets/image/0_home_general/button_chevron.svg");
+  margin-top: 1%;
+  position: relative;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  float: right;
+  vertical-align: middle;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .btn {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .btn {
+    font-size: 20px;
+    width: 70%;
+  }
+}
+
+div.text-image-left {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+div.text-image-left div.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+div.text-image-left div.content .image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: -4%;
+  margin-left: 3%;
+  margin-right: 6%;
+}
+
+div.text-image-left h3.title {
+  font-family: "Quicksand";
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 50px;
+  color: #003d4c;
+}
+
+div.text-image-left p {
+  color: #333333;
+  font-family: "Quicksand";
+  font-weight: 500;
+  font-size: 24px;
+  letter-spacing: 1.14px;
+  line-height: 30px;
+}
+
+div.text-image-left b {
+  color: #333333;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 768px) {
+  div.text-image-left .title {
+    font-size: 30px;
+  }
+  div.text-image-left p {
+    font-size: 20px;
+  }
+}
+
+div.text-image-left h4.title {
+  font-family: "Quicksand";
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 50px;
+  color: #003d4c;
+}
+
+div.text-image-left .btn {
+  margin-top: 3%;
+}
+
+@media only screen and (max-width: 768px) {
+  div.text-image-left .title {
+    font-size: 24px;
+  }
+  div.text-image-left p {
+    font-size: 20px;
+  }
+}
+
+div.text-image-right {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+div.text-image-right div.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+div.text-image-right div.content .image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: -4%;
+  margin-left: 6%;
+  margin-right: 3%;
+}
+
+div.text-image-right h3.title {
+  font-family: "Quicksand";
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 50px;
+  color: #003d4c;
+}
+
+div.text-image-right p {
+  color: #333333;
+  font-family: "Quicksand";
+  font-weight: 500;
+  font-size: 24px;
+  letter-spacing: 1.14px;
+  line-height: 30px;
+}
+
+div.text-image-right b {
+  color: #333333;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 768px) {
+  div.text-image-right .title {
+    font-size: 30px;
+  }
+  div.text-image-right p {
+    font-size: 20px;
+  }
+}
+
+div.text-image-right h4.title {
+  font-family: "Quicksand";
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 50px;
+  color: #003d4c;
+}
+
+div.text-image-right .btn {
+  background-color: #0081a3;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  width: 448px;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+div.text-image-right .btn::after {
+  content: url("../assets/image/0_home_general/button_chevron.svg");
+  margin-top: 1%;
+  position: relative;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  float: right;
+  vertical-align: middle;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  div.text-image-right .btn {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  div.text-image-right .btn {
+    font-size: 20px;
+    width: 70%;
+  }
+}
+
+div.text-image-right .btn {
+  margin-top: 3%;
+}
+
+@media only screen and (max-width: 768px) {
+  div.text-image-right .title {
+    font-size: 24px;
+  }
+  div.text-image-right p {
+    font-size: 20px;
+  }
+}
+
+div.number-list {
+}
+
+div.number-list div.my-container {
+  margin-left: 11%;
+  margin-right: 11%;
+}
+
+div.number-list ol {
+  counter-reset: li;
+  /* Initiate a counter */
+}
+
+div.number-list ol > li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 2%;
+  margin-left: 4%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 105px;
+  position: relative;
+  list-style: none;
+}
+
+div.number-list ol > li:before {
+  content: counter(li);
+  counter-increment: li;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  left: -2em;
+  width: 105px;
+  height: 105px;
+  color: #a05fa6;
+  font-family: Quicksand;
+  font-size: 55px;
+  font-weight: bold;
+  letter-spacing: 2.62px;
+  line-height: 69px;
+  border-radius: 50%;
+  border: 4px solid #a05fa6;
+}
+
+div.number-list h3.title {
+  font-family: "Quicksand";
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 50px;
+  color: #003d4c;
+}
+
+div.number-list p {
+  color: #333333;
+  font-family: "Quicksand";
+  font-weight: 500;
+  font-size: 24px;
+  letter-spacing: 1.14px;
+  line-height: 30px;
+}
+
+div.number-list b {
+  color: #333333;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 768px) {
+  div.number-list .title {
+    font-size: 30px;
+  }
+  div.number-list p {
+    font-size: 20px;
+  }
+}
+
+div.number-list p {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  margin-left: 10px;
+}
+
+@media only screen and (max-width: 1024px) {
+  div.number-list div.my-container {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  div.number-list ol > li {
+    margin-bottom: 8%;
+  }
+  div.number-list ol > li:before {
+    left: -1.3em;
+    width: 85px;
+    height: 85px;
+    font-size: 25px;
+  }
+  div.number-list p {
+    margin-left: 70px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  div.number-list div.my-container {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+}
+
+div.table-green {
+  width: 100%;
+}
+
+div.table-green div.my-container {
+  margin-left: 9%;
+  margin-right: 9%;
+}
+
+div.table-green div.my-table {
+  width: 100%;
+  border: 1px solid #789c49;
+}
+
+div.table-green div.my-table h3.title {
+  font-family: "Quicksand";
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 50px;
+  color: #003d4c;
+}
+
+div.table-green div.my-table p {
+  color: #333333;
+  font-family: "Quicksand";
+  font-weight: 500;
+  font-size: 24px;
+  letter-spacing: 1.14px;
+  line-height: 30px;
+}
+
+div.table-green div.my-table b {
+  color: #333333;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 768px) {
+  div.table-green div.my-table .title {
+    font-size: 30px;
+  }
+  div.table-green div.my-table p {
+    font-size: 20px;
+  }
+}
+
+div.table-green div.my-table div.extra-information {
+  min-height: 86px;
+  margin-right: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+div.table-green div.my-table div.extra-information > p {
+  margin-top: auto;
+  margin-bottom: auto;
+  font-family: "Quicksand";
+  font-size: 24px;
+  color: #333333;
+  font-weight: 700;
+  letter-spacing: 1.14px;
+  line-height: 30px;
+}
+
+div.table-green div.my-table div.information {
+  background-color: #789c49;
+  padding: 5% 10%;
+  text-align: center;
+}
+
+div.table-green div.my-table div.information p {
+  color: #ffffff !important;
+}
+
+div.table-green div.my-table div.information p > b {
+  color: #ffffff !important;
+}
+
+div.table-green div.my-table div.content table {
+  border-spacing: initial;
+  width: 100%;
+  border-collapse: collapse;
+  color: #333333;
+  font-family: "Quicksand";
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 1.14px;
+  line-height: 30px;
+}
+
+div.table-green div.my-table div.content table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+div.table-green div.my-table div.content table thead {
+  min-height: 86px;
+  background-color: #f2f2f2;
+}
+
+div.table-green div.my-table div.content table th {
+  max-width: 218px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+div.table-green div.my-table div.content table td {
+  height: 48px;
+  text-align: center;
+}
+
+div.table-green div.my-table div.content table tbody,
+div.table-green div.my-table div.content table td,
+div.table-green div.my-table div.content table tfoot,
+div.table-green div.my-table div.content table th,
+div.table-green div.my-table div.content table thead,
+div.table-green div.my-table div.content table tr {
+  padding-left: 9%;
+  padding-right: 9%;
+}
+
+@media only screen and (max-width: 768px) {
+  div.table-green div.my-container {
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+  div.table-green div.my-container div.extra-information {
+    margin-right: 15%;
+  }
+  div.table-green div.my-table .information,
+  div.table-green div.my-table .extra-information,
+  div.table-green div.my-table .content > table {
+    font-size: 20px !important;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  div.table-green div.my-container {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  div.table-green div.my-container div.extra-information {
+    margin-right: 7%;
+  }
+  div.table-green div.my-container tbody,
+  div.table-green div.my-container td,
+  div.table-green div.my-container tfoot,
+  div.table-green div.my-container th,
+  div.table-green div.my-container thead,
+  div.table-green div.my-container tr {
+    padding-left: 1% !important;
+    padding-right: 1% !important;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  div.table-green div.my-container div.extra-information {
+    margin-right: 4%;
+  }
+}
+
+div.table-blue {
+  width: 100%;
+}
+
+div.table-blue div.my-container {
+  margin-left: 9%;
+  margin-right: 9%;
+}
+
+div.table-blue div.my-table {
+  width: 100%;
+  border: 1px solid #0081a3;
+}
+
+div.table-blue div.my-table h3.title {
+  font-family: "Quicksand";
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 50px;
+  color: #003d4c;
+}
+
+div.table-blue div.my-table p {
+  color: #333333;
+  font-family: "Quicksand";
+  font-weight: 500;
+  font-size: 24px;
+  letter-spacing: 1.14px;
+  line-height: 30px;
+}
+
+div.table-blue div.my-table b {
+  color: #333333;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 768px) {
+  div.table-blue div.my-table .title {
+    font-size: 30px;
+  }
+  div.table-blue div.my-table p {
+    font-size: 20px;
+  }
+}
+
+div.table-blue div.my-table div.extra-information {
+  min-height: 86px;
+  margin-right: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+div.table-blue div.my-table div.extra-information > p {
+  margin-top: auto;
+  margin-bottom: auto;
+  font-family: "Quicksand";
+  font-size: 24px;
+  color: #333333;
+  font-weight: 700;
+  letter-spacing: 1.14px;
+  line-height: 30px;
+}
+
+div.table-blue div.my-table div.information {
+  background-color: #0081a3;
+  padding: 5% 10%;
+  text-align: center;
+}
+
+div.table-blue div.my-table div.information p {
+  color: #ffffff !important;
+}
+
+div.table-blue div.my-table div.information p > b {
+  color: #ffffff !important;
+}
+
+div.table-blue div.my-table div.content table {
+  border-spacing: initial;
+  width: 100%;
+  border-collapse: collapse;
+  color: #333333;
+  font-family: "Quicksand";
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 1.14px;
+  line-height: 30px;
+}
+
+div.table-blue div.my-table div.content table tr:nth-child(even) {
+  background-color: rgba(0, 129, 163, 0.2);
+}
+
+div.table-blue div.my-table div.content table thead {
+  min-height: 86px;
+  background-color: rgba(0, 129, 163, 0.2);
+}
+
+div.table-blue div.my-table div.content table th {
+  max-width: 218px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+div.table-blue div.my-table div.content table td {
+  height: 48px;
+  text-align: center;
+}
+
+div.table-blue div.my-table div.content table tbody,
+div.table-blue div.my-table div.content table td,
+div.table-blue div.my-table div.content table tfoot,
+div.table-blue div.my-table div.content table th,
+div.table-blue div.my-table div.content table thead,
+div.table-blue div.my-table div.content table tr {
+  padding-left: 9%;
+  padding-right: 9%;
+}
+
+@media only screen and (max-width: 768px) {
+  div.table-blue div.my-container {
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+  div.table-blue div.my-container div.extra-information {
+    margin-right: 15%;
+  }
+  div.table-blue div.my-table .information,
+  div.table-blue div.my-table .extra-information,
+  div.table-blue div.my-table .content > table {
+    font-size: 20px !important;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  div.table-blue div.my-container {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  div.table-blue div.my-container div.extra-information {
+    margin-right: 7%;
+  }
+  div.table-blue div.my-container tbody,
+  div.table-blue div.my-container td,
+  div.table-blue div.my-container tfoot,
+  div.table-blue div.my-container th,
+  div.table-blue div.my-container thead,
+  div.table-blue div.my-container tr {
+    padding-left: 1% !important;
+    padding-right: 1% !important;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  div.table-blue div.my-container div.extra-information {
+    margin-right: 4%;
+  }
+}
+
+div.gallery div.my-container {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+div.gallery div.my-container div.target {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 2%;
+  min-height: 61px;
+  position: relative;
+  background: #dfdfdf;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-top: 9px solid #755ea5;
+}
+
+div.gallery div.my-container div.target:after {
+  position: absolute;
+  left: 32%;
+  right: 0;
+  top: -9px;
+  border-top: 9px solid #a05fa6;
+  content: "";
+}
+
+div.gallery div.my-container div.target h3.title {
+  font-family: "Quicksand";
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 50px;
+  color: #003d4c;
+}
+
+div.gallery div.my-container div.target p {
+  color: #333333;
+  font-family: "Quicksand";
+  font-weight: 500;
+  font-size: 24px;
+  letter-spacing: 1.14px;
+  line-height: 30px;
+}
+
+div.gallery div.my-container div.target b {
+  color: #333333;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 768px) {
+  div.gallery div.my-container div.target .title {
+    font-size: 30px;
+  }
+  div.gallery div.my-container div.target p {
+    font-size: 20px;
+  }
+}
+
+div.gallery div.my-container div.target p {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+div.gallery div.my-container div.row {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+div.gallery div.my-container div.row .col {
+  padding-right: 0;
+  padding-left: 0;
+  width: 49.5%;
+}
+
+div.gallery div.my-container div.row img {
+  width: 100%;
+  height: 450px;
+}
+
+@media only screen and (max-width: 768px) {
+  div.gallery div.my-container img {
+    height: 350px !important;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  div.gallery div.my-container img {
+    height: 180px !important;
+  }
+}
+
+div.videos {
+  background: #dfdfdf;
+}
+
+div.videos h3.title {
+  font-family: "Quicksand";
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 50px;
+  color: #003d4c;
+}
+
+div.videos p {
+  color: #333333;
+  font-family: "Quicksand";
+  font-weight: 500;
+  font-size: 24px;
+  letter-spacing: 1.14px;
+  line-height: 30px;
+}
+
+div.videos b {
+  color: #333333;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 768px) {
+  div.videos .title {
+    font-size: 30px;
+  }
+  div.videos p {
+    font-size: 20px;
+  }
+}
+
+div.videos h3.title {
+  padding-top: 3%;
+  padding-bottom: 5%;
+}
+
+div.videos .my-container {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+div.videos .my-container div.content {
+  min-height: 322px;
+  margin-bottom: 4%;
+  padding-bottom: 4%;
+  font-weight: normal !important;
+}
+
+div.videos .my-container div.content p {
+  margin-left: 11%;
 }
 
 footer {

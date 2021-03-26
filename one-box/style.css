@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap");
 div.one-box {
   border-top: solid;
   position: relative;
@@ -22,7 +23,7 @@ div.one-box div.card {
   background-color: #dfdfdf;
 }
 
-div.one-box div.card .title {
+div.one-box div.card h3.title {
   font-family: "Quicksand";
   font-size: 40px;
   font-weight: bold;
@@ -33,9 +34,9 @@ div.one-box div.card .title {
 
 div.one-box div.card p {
   color: #333333;
-  font-family: "Quicksand Medium";
-  font-size: 24px;
+  font-family: "Quicksand";
   font-weight: 500;
+  font-size: 24px;
   letter-spacing: 1.14px;
   line-height: 30px;
 }

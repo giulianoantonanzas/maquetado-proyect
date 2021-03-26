@@ -1,0 +1,64 @@
+div.gallery {
+    div.my-container {
+        margin-left: 2%;
+        margin-right: 2%;
+        div.target {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin-top: 2%;
+            min-height: 61px;
+            position: relative;
+            background: $blocks-background-color;
+            box-sizing: border-box;
+            border-top: 9px solid $primary-color;
+            &:after {
+                position: absolute;
+                left: 32%;
+                right: 0;
+                top: -9px;
+                border-top: 9px solid $primary-color-light;
+                content: "";
+            }
+            @import "../assets/style/text";
+            p {
+                text-align: center;
+                font-weight: bold;
+                margin-bottom: auto;
+                margin-top: auto;
+            }
+        }
+        div.row {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            margin-right: auto;
+            margin-left: auto;
+            .col {
+                padding-right: 0;
+                padding-left: 0;
+                width: 49.5%;
+            }
+            img {
+                width: 100%;
+                height: 450px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    div.gallery {
+        div.my-container img {
+            height: 350px !important;
+        }
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    div.gallery {
+        div.my-container img {
+            height: 180px !important;
+        }
+    }
+}

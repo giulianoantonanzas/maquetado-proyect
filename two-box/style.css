@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap");
 div.two-box {
   margin-left: 2%;
   margin-right: 2%;
@@ -86,7 +87,7 @@ div.two-box div.card div.card-body h3.card-title {
   color: #003d4c;
 }
 
-div.two-box div.card div.card-body .title {
+div.two-box div.card div.card-body h3.title {
   font-family: "Quicksand";
   font-size: 40px;
   font-weight: bold;
@@ -97,9 +98,9 @@ div.two-box div.card div.card-body .title {
 
 div.two-box div.card div.card-body p {
   color: #333333;
-  font-family: "Quicksand Medium";
-  font-size: 24px;
+  font-family: "Quicksand";
   font-weight: 500;
+  font-size: 24px;
   letter-spacing: 1.14px;
   line-height: 30px;
 }

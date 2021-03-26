@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap");
 .btn {
   background-color: #0081a3;
   -webkit-box-sizing: content-box;
@@ -55,9 +56,9 @@ div.text-image-left div.content .image {
   margin-right: 6%;
 }
 
-div.text-image-left .title {
+div.text-image-left h3.title {
   font-family: "Quicksand";
-  font-size: 30px;
+  font-size: 40px;
   font-weight: bold;
   letter-spacing: 0;
   line-height: 50px;
@@ -66,9 +67,9 @@ div.text-image-left .title {
 
 div.text-image-left p {
   color: #333333;
-  font-family: "Quicksand Medium";
-  font-size: 24px;
+  font-family: "Quicksand";
   font-weight: 500;
+  font-size: 24px;
   letter-spacing: 1.14px;
   line-height: 30px;
 }
@@ -76,6 +77,24 @@ div.text-image-left p {
 div.text-image-left b {
   color: #333333;
   font-weight: bold;
+}
+
+@media only screen and (max-width: 768px) {
+  div.text-image-left .title {
+    font-size: 30px;
+  }
+  div.text-image-left p {
+    font-size: 20px;
+  }
+}
+
+div.text-image-left h4.title {
+  font-family: "Quicksand";
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 50px;
+  color: #003d4c;
 }
 
 div.text-image-left .btn {

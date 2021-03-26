@@ -1,14 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap");
-.text {
-  width: 100%;
+div.videos {
+  background: #dfdfdf;
 }
 
-.text .basic-content {
-  margin-left: 2%;
-  margin-right: 2%;
-}
-
-.text .basic-content h3.title {
+div.videos h3.title {
   font-family: "Quicksand";
   font-size: 40px;
   font-weight: bold;
@@ -17,7 +12,7 @@
   color: #003d4c;
 }
 
-.text .basic-content p {
+div.videos p {
   color: #333333;
   font-family: "Quicksand";
   font-weight: 500;
@@ -26,21 +21,38 @@
   line-height: 30px;
 }
 
-.text .basic-content b {
+div.videos b {
   color: #333333;
   font-weight: bold;
 }
 
 @media only screen and (max-width: 768px) {
-  .text .basic-content .title {
+  div.videos .title {
     font-size: 30px;
   }
-  .text .basic-content p {
+  div.videos p {
     font-size: 20px;
   }
 }
 
-.text .basic-content li {
-  color: #755ea5;
+div.videos h3.title {
+  padding-top: 3%;
+  padding-bottom: 5%;
+}
+
+div.videos .my-container {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+div.videos .my-container div.content {
+  min-height: 322px;
+  margin-bottom: 4%;
+  padding-bottom: 4%;
+  font-weight: normal !important;
+}
+
+div.videos .my-container div.content p {
+  margin-left: 11%;
 }
 /*# sourceMappingURL=style.css.map */

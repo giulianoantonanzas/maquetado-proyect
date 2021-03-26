@@ -21,3 +21,20 @@
     <li>Creacion de bloque text-image-right <b>NEW</b></li>
     <li>Creacion de bloque number-list <b>NEW</b></li>
 </ul>
+
+<h2>25/03</h2>
+<ul>
+<li>se exporto la fuente de google fonts y se aplica correctamente <b>UPDATE</b></li>
+<li>se actualizo el contenedor de number list, se creo uno particular para que se adapte mejor a las resoluciones. Ademas de poner bien el color de los numeros (anteriormente le puse el color primario y era el mas claro) <b>UPDATE</b></li>
+<li>Creacion de bloque table-blue <b>NEW</b></li>
+<li>Creacion de bloque table-green <b>NEW</b></li>
+<li>Creacion de bloque gallery <b>NEW</b></li>
+<li>Creacion de bloque videos , no hay diseño responsive <b>NEW</b></li>
+</ul>
+
+<h3>el trabajo esta pracicamente terminado ,solo queda por resolver algunos detalles en el diseño. </h3>
+<ul>
+<li>ARREGLAR masthead 320px mobile</li>
+<li>ARREGLAR navbar verde mobile</li>
+<li>conseguir el lineal gradient precicio de las cards</li>
+</ul>

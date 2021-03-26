@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap");
 div.text-feature {
   width: 100%;
   background-color: #dfdfdf;
@@ -10,7 +11,7 @@ div.text-feature div.text-feature-content {
   padding-right: 2%;
 }
 
-div.text-feature div.text-feature-content .title {
+div.text-feature div.text-feature-content h3.title {
   font-family: "Quicksand";
   font-size: 40px;
   font-weight: bold;
@@ -21,9 +22,9 @@ div.text-feature div.text-feature-content .title {
 
 div.text-feature div.text-feature-content p {
   color: #333333;
-  font-family: "Quicksand Medium";
-  font-size: 24px;
+  font-family: "Quicksand";
   font-weight: 500;
+  font-size: 24px;
   letter-spacing: 1.14px;
   line-height: 30px;
 }

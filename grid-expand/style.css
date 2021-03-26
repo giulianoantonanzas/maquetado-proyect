@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap");
 div.grid-expand {
   margin-right: 2%;
   margin-left: 2%;
@@ -44,7 +45,7 @@ div.grid-expand li {
   color: #0081a3;
 }
 
-div.grid-expand .title {
+div.grid-expand h3.title {
   font-family: "Quicksand";
   font-size: 40px;
   font-weight: bold;
@@ -55,9 +56,9 @@ div.grid-expand .title {
 
 div.grid-expand p {
   color: #333333;
-  font-family: "Quicksand Medium";
-  font-size: 24px;
+  font-family: "Quicksand";
   font-weight: 500;
+  font-size: 24px;
   letter-spacing: 1.14px;
   line-height: 30px;
 }

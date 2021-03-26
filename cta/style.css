@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap");
 div.cta {
   border-top: solid;
   position: relative;
@@ -21,7 +22,7 @@ div.cta div.card {
   background-color: #dfdfdf;
 }
 
-div.cta div.card .title {
+div.cta div.card h3.title {
   font-family: "Quicksand";
   font-size: 40px;
   font-weight: bold;
@@ -32,9 +33,9 @@ div.cta div.card .title {
 
 div.cta div.card p {
   color: #333333;
-  font-family: "Quicksand Medium";
-  font-size: 24px;
+  font-family: "Quicksand";
   font-weight: 500;
+  font-size: 24px;
   letter-spacing: 1.14px;
   line-height: 30px;
 }

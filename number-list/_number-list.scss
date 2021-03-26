@@ -1,4 +1,8 @@
 div.number-list {
+    div.my-container {
+        margin-left: 11%;
+        margin-right: 11%;
+    }
     ol {
         counter-reset: li; /* Initiate a counter */
     }
@@ -20,31 +24,30 @@ div.number-list {
             left: -2em;
             width: 105px;
             height: 105px;
-            color: $primary-color;
+            color: $primary-color-light;
             font-family: Quicksand;
             font-size: 55px;
             font-weight: bold;
             letter-spacing: 2.62px;
             line-height: 69px;
             border-radius: 50%;
-            border: 4px solid $primary-color;
+            border: 4px solid $primary-color-light;
         }
     }
+    @import "../assets/style/text";
     p {
-        font-family: Quicksand;
-        font-size: 24px;
-        color: #333333;
-        font-weight: 500;
-        letter-spacing: 1.14px;
-        line-height: 30px;
         margin-top: 0 !important;
         margin-bottom: 0 !important;
         margin-left: 10px;
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
     div.number-list {
+        div.my-container {
+            margin-left: 5%;
+            margin-right: 5%;
+        }
         ol > li {
             margin-bottom: 8%;
             &:before {
@@ -55,8 +58,13 @@ div.number-list {
             }
         }
         p {
-            font-size: 20px;
             margin-left: 70px;
         }
+    }
+}
+@media only screen and (max-width: 450px) {
+    div.number-list div.my-container {
+        margin-left: 2%;
+        margin-right: 2%;
     }
 }

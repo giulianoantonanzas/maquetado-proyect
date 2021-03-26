@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap");
+div.gallery div.my-container {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+div.gallery div.my-container div.target {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 2%;
+  min-height: 61px;
+  position: relative;
+  background: #dfdfdf;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-top: 9px solid #755ea5;
+}
+
+div.gallery div.my-container div.target:after {
+  position: absolute;
+  left: 32%;
+  right: 0;
+  top: -9px;
+  border-top: 9px solid #a05fa6;
+  content: "";
+}
+
+div.gallery div.my-container div.target h3.title {
+  font-family: "Quicksand";
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 50px;
+  color: #003d4c;
+}
+
+div.gallery div.my-container div.target p {
+  color: #333333;
+  font-family: "Quicksand";
+  font-weight: 500;
+  font-size: 24px;
+  letter-spacing: 1.14px;
+  line-height: 30px;
+}
+
+div.gallery div.my-container div.target b {
+  color: #333333;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 768px) {
+  div.gallery div.my-container div.target .title {
+    font-size: 30px;
+  }
+  div.gallery div.my-container div.target p {
+    font-size: 20px;
+  }
+}
+
+div.gallery div.my-container div.target p {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+div.gallery div.my-container div.row {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+div.gallery div.my-container div.row .col {
+  padding-right: 0;
+  padding-left: 0;
+  width: 49.5%;
+}
+
+div.gallery div.my-container div.row img {
+  width: 100%;
+  height: 450px;
+}
+
+@media only screen and (max-width: 768px) {
+  div.gallery div.my-container img {
+    height: 350px !important;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  div.gallery div.my-container img {
+    height: 180px !important;
+  }
+}
+/*# sourceMappingURL=style.css.map */

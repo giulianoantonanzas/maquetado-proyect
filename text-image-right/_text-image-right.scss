@@ -10,7 +10,8 @@ div.text-image-right {
             margin-right: 3%;
         }
     }
-    .title {
+    @import '../assets/style/text';
+    h4.title {
         font-family: "Quicksand";
         font-size: 30px;
         font-weight: bold;
@@ -19,18 +20,6 @@ div.text-image-right {
         color: $title-color;
     }
 
-    p {
-        color:  #333333;
-        font-family: "Quicksand Medium";
-        font-size: 24px;
-        font-weight: 500;
-        letter-spacing: 1.14px;
-        line-height: 30px;
-    }
-    b {
-        color: #333333;
-        font-weight: bold;
-    }
     @import '../assets/style/button';
     .btn {
         margin-top: 3%;

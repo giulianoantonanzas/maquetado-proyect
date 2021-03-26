@@ -1,19 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap");
-div.table-green {
+div.table-blue {
   width: 100%;
 }
 
-div.table-green div.my-container {
+div.table-blue div.my-container {
   margin-left: 9%;
   margin-right: 9%;
 }
 
-div.table-green div.my-table {
+div.table-blue div.my-table {
   width: 100%;
-  border: 1px solid #789c49;
+  border: 1px solid #0081a3;
 }
 
-div.table-green div.my-table h3.title {
+div.table-blue div.my-table h3.title {
   font-family: "Quicksand";
   font-size: 40px;
   font-weight: bold;
@@ -22,7 +22,7 @@ div.table-green div.my-table h3.title {
   color: #003d4c;
 }
 
-div.table-green div.my-table p {
+div.table-blue div.my-table p {
   color: #333333;
   font-family: "Quicksand";
   font-weight: 500;
@@ -31,21 +31,21 @@ div.table-green div.my-table p {
   line-height: 30px;
 }
 
-div.table-green div.my-table b {
+div.table-blue div.my-table b {
   color: #333333;
   font-weight: bold;
 }
 
 @media only screen and (max-width: 768px) {
-  div.table-green div.my-table .title {
+  div.table-blue div.my-table .title {
     font-size: 30px;
   }
-  div.table-green div.my-table p {
+  div.table-blue div.my-table p {
     font-size: 20px;
   }
 }
 
-div.table-green div.my-table div.extra-information {
+div.table-blue div.my-table div.extra-information {
   min-height: 86px;
   margin-right: 20%;
   display: -webkit-box;
@@ -56,7 +56,7 @@ div.table-green div.my-table div.extra-information {
           justify-content: flex-end;
 }
 
-div.table-green div.my-table div.extra-information > p {
+div.table-blue div.my-table div.extra-information > p {
   margin-top: auto;
   margin-bottom: auto;
   font-family: "Quicksand";
@@ -67,21 +67,21 @@ div.table-green div.my-table div.extra-information > p {
   line-height: 30px;
 }
 
-div.table-green div.my-table div.information {
-  background-color: #789c49;
+div.table-blue div.my-table div.information {
+  background-color: #0081a3;
   padding: 5% 10%;
   text-align: center;
 }
 
-div.table-green div.my-table div.information p {
+div.table-blue div.my-table div.information p {
   color: #ffffff !important;
 }
 
-div.table-green div.my-table div.information p > b {
+div.table-blue div.my-table div.information p > b {
   color: #ffffff !important;
 }
 
-div.table-green div.my-table div.content table {
+div.table-blue div.my-table div.content table {
   border-spacing: initial;
   width: 100%;
   border-collapse: collapse;
@@ -93,73 +93,73 @@ div.table-green div.my-table div.content table {
   line-height: 30px;
 }
 
-div.table-green div.my-table div.content table tr:nth-child(even) {
-  background-color: #f2f2f2;
+div.table-blue div.my-table div.content table tr:nth-child(even) {
+  background-color: rgba(0, 129, 163, 0.2);
 }
 
-div.table-green div.my-table div.content table thead {
+div.table-blue div.my-table div.content table thead {
   min-height: 86px;
-  background-color: #f2f2f2;
+  background-color: rgba(0, 129, 163, 0.2);
 }
 
-div.table-green div.my-table div.content table th {
+div.table-blue div.my-table div.content table th {
   max-width: 218px;
   padding-top: 20px;
   padding-bottom: 20px;
   text-align: center;
 }
 
-div.table-green div.my-table div.content table td {
+div.table-blue div.my-table div.content table td {
   height: 48px;
   text-align: center;
 }
 
-div.table-green div.my-table div.content table tbody,
-div.table-green div.my-table div.content table td,
-div.table-green div.my-table div.content table tfoot,
-div.table-green div.my-table div.content table th,
-div.table-green div.my-table div.content table thead,
-div.table-green div.my-table div.content table tr {
+div.table-blue div.my-table div.content table tbody,
+div.table-blue div.my-table div.content table td,
+div.table-blue div.my-table div.content table tfoot,
+div.table-blue div.my-table div.content table th,
+div.table-blue div.my-table div.content table thead,
+div.table-blue div.my-table div.content table tr {
   padding-left: 9%;
   padding-right: 9%;
 }
 
 @media only screen and (max-width: 768px) {
-  div.table-green div.my-container {
+  div.table-blue div.my-container {
     margin-left: 4%;
     margin-right: 4%;
   }
-  div.table-green div.my-container div.extra-information {
+  div.table-blue div.my-container div.extra-information {
     margin-right: 15%;
   }
-  div.table-green div.my-table .information,
-  div.table-green div.my-table .extra-information,
-  div.table-green div.my-table .content > table {
+  div.table-blue div.my-table .information,
+  div.table-blue div.my-table .extra-information,
+  div.table-blue div.my-table .content > table {
     font-size: 20px !important;
   }
 }
 
 @media only screen and (max-width: 450px) {
-  div.table-green div.my-container {
+  div.table-blue div.my-container {
     margin-left: 2%;
     margin-right: 2%;
   }
-  div.table-green div.my-container div.extra-information {
+  div.table-blue div.my-container div.extra-information {
     margin-right: 7%;
   }
-  div.table-green div.my-container tbody,
-  div.table-green div.my-container td,
-  div.table-green div.my-container tfoot,
-  div.table-green div.my-container th,
-  div.table-green div.my-container thead,
-  div.table-green div.my-container tr {
+  div.table-blue div.my-container tbody,
+  div.table-blue div.my-container td,
+  div.table-blue div.my-container tfoot,
+  div.table-blue div.my-container th,
+  div.table-blue div.my-container thead,
+  div.table-blue div.my-container tr {
     padding-left: 1% !important;
     padding-right: 1% !important;
   }
 }
 
 @media only screen and (max-width: 400px) {
-  div.table-green div.my-container div.extra-information {
+  div.table-blue div.my-container div.extra-information {
     margin-right: 4%;
   }
 }
