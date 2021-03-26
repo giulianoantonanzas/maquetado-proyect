@@ -30,6 +30,7 @@ div#masthead {
         }
         .btn {
             margin-bottom: 10px;
+            margin-left: 15%;
         }
         div.main-title {
             width: 80%;
@@ -164,6 +165,12 @@ div#masthead {
                 }
             }
         }
+    }
+}
+@media only screen and(min-width: 769px) and (  max-width: 1024px){
+    div#masthead div.information{
+        margin-top: 22%!important;
+        width: 800px;
     }
 }
 

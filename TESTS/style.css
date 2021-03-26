@@ -209,6 +209,7 @@ div#masthead div.masthead-content .row {
 
 div#masthead div.masthead-content .btn {
   margin-bottom: 10px;
+  margin-left: 15%;
 }
 
 div#masthead div.masthead-content div.main-title {
@@ -396,6 +397,13 @@ div#masthead div.masthead-content div.information .btn::after {
   div#masthead div.masthead-content .information .sub-title,
   div#masthead div.masthead-content .information text {
     width: 90%;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  div#masthead div.information {
+    margin-top: 22% !important;
+    width: 800px;
   }
 }
 
