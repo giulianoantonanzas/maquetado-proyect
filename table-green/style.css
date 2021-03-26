@@ -36,6 +36,10 @@ div.table-green div.my-table b {
   font-weight: bold;
 }
 
+div.table-green div.my-table a {
+  color: #0081A3;
+}
+
 @media only screen and (max-width: 768px) {
   div.table-green div.my-table .title {
     font-size: 30px;

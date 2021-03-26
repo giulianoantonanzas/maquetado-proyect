@@ -3,7 +3,7 @@ div.two-box {
     margin-right: 2%;
     div.card {
         height: 540px;
-        background-color: $blocks-background-color;
+        background: $blocks-background-color;
         box-sizing: border-box;
         border-top: 9px solid $primary-color;
         &:after {
@@ -13,11 +13,6 @@ div.two-box {
             top: -9px;
             border-top: 9px solid $primary-color-light;
             content: "";
-        }
-        div.degradee {
-            width: 100%;
-            height: 100%;
-            background: $background-degradee;
         }
         div.card-body {
             padding: 0;

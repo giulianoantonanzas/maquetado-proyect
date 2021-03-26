@@ -75,6 +75,10 @@ div.number-list b {
   font-weight: bold;
 }
 
+div.number-list a {
+  color: #0081A3;
+}
+
 @media only screen and (max-width: 768px) {
   div.number-list .title {
     font-size: 30px;

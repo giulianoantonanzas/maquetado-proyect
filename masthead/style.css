@@ -51,7 +51,8 @@ div#masthead div.masthead-content div.main-title h1 {
   font-family: "Quicksand";
   font-weight: bold;
   letter-spacing: 0;
-  line-height: 1.4em;
+  font-size: 56px;
+  line-height: 75px;
 }
 
 div#masthead div.masthead-content img.main-image {
@@ -83,6 +84,10 @@ div#masthead div.masthead-content div.information p {
 div#masthead div.masthead-content div.information b {
   color: #333333;
   font-weight: bold;
+}
+
+div#masthead div.masthead-content div.information a {
+  color: #0081A3;
 }
 
 @media only screen and (max-width: 768px) {
@@ -164,6 +169,7 @@ div#masthead div.masthead-content div.information .btn::after {
   div#masthead div.masthead-content div.main-title h1 {
     margin-top: auto;
     margin-bottom: auto;
+    font-size: 30px;
     line-height: 1.4em;
   }
   div#masthead div.masthead-content .col-5 {
@@ -183,6 +189,9 @@ div#masthead div.masthead-content div.information .btn::after {
     margin-top: auto;
     margin-bottom: auto;
     height: 22%;
+  }
+  div#masthead div.main-title h1 {
+    font-size: 27px !important;
   }
 }
 

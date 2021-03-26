@@ -1,82 +1,94 @@
 header {
+    @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap");
     width: 100%;
-}
-
-header div#announcements {
-    background-color: $secundary-color;
-    //height: 51px;
-    width: 100%;
-    .navbar-collapse {
-        z-index: 1;
-        background-color: $secundary-color;
-    }
-    .dropdown-menu {
-        background-color: $secundary-color;
-    }
-    li.nav-link,
-    .dropdown-menu li {
-        text-decoration: underline;
-    }
-    .navbar-nav {
-        flex-direction: unset;
-    }
     a {
-        color: #ffffff;
+        font-family: "Quicksand";
+        font-size: 19px;
+        font-weight: 500;
+        letter-spacing: 0;
+        line-height: 24px;
     }
-}
 
-nav#mainNav {
-    background: linear-gradient(0.25turn, $primary-color-light -40%, $primary-color);
-    height: 99px;
-    width: 100%;
-    .row {
-        --bs-gutter-x: 0; //pequeña correccion de boostrap
+    div#announcements {
+        background-color: $secundary-color;
+        //height: 51px;
+        width: 100%;
+        .navbar-collapse {
+            z-index: 1;
+            background-color: $secundary-color;
+        }
+        .dropdown-menu {
+            background-color: $secundary-color;
+        }
+        li.nav-link,
+        .dropdown-menu li {
+            text-decoration: underline;
+        }
+        .navbar-nav {
+            flex-direction: unset;
+        }
+        ul li a {
+            color: #ffffff;
+        }
+        .nav-link.dropdown-toggle {
+            font-weight: bold;
+        }
     }
-    button.navbar-toggler {
-        position: absolute;
-        right: 0;
-        margin-right: 5%;
-    }
-    .dropdown-menu {
-        border-top: solid white 3px;
-        background-color: $primary-color-light;
-    }
-    ul li a {
-        color: #ffffff;
-    }
-}
 
-header div#announcements .navbar-conteiner , nav#mainNav .navbar-conteiner {
-    width: 100%;
-    margin-left: 20%;
-    margin-right: 20%;
-}
-hr {
-    margin: 0;
-    border-top: solid rgba(255, 255, 255, 0.645) 1px;
+    nav#mainNav {
+        background: linear-gradient(0.25turn, $primary-color-light -40%, $primary-color);
+        height: 99px;
+        width: 100%;
+        .row {
+            --bs-gutter-x: 0; //pequeña correccion de boostrap
+        }
+        button.navbar-toggler {
+            position: absolute;
+            right: 0;
+            margin-right: 5%;
+        }
+        .dropdown-menu {
+            border-top: solid white 3px;
+            background-color: $primary-color-light;
+        }
+        ul li a {
+            color: #ffffff;
+        }
+    }
+
+    div#announcements .navbar-conteiner,
+    nav#mainNav .navbar-conteiner {
+        width: 100%;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    hr {
+        margin: 0;
+        border-top: solid rgba(255, 255, 255, 0.645) 1px;
+    }
 }
 
 @media only screen and (max-width: 992px) {
-
-    header div#announcements .navbar-conteiner , header nav#mainNav .navbar-conteiner {
-        margin-left: 3%!important;
-        margin-right: 3%!important;
+    header div#announcements .navbar-conteiner,
+    header nav#mainNav .navbar-conteiner {
+        margin-left: 3% !important;
+        margin-right: 3% !important;
     }
 
-    header div#announcements .bd-highlight{
+    header div#announcements .bd-highlight {
         margin-left: 3%;
     }
 
     nav#mainNav {
         margin-left: auto;
-        .navbar-toggler:focus{
+        .navbar-toggler:focus {
             box-shadow: none;
         }
 
         .navbar-toggler-icon {
             filter: invert(100%);
-            &:focus{
-                outline:none;
+            &:focus {
+                outline: none;
             }
         }
         hr {
@@ -101,6 +113,10 @@ hr {
     nav#mainNav {
         width: 81%;
         height: 70px;
+
+        .navbar-collapse {
+            margin-top: 37px !important;
+        }
     }
     //esto va para el navbar violeta, el logo se posiciona arriba a la izquierda
     div#masthead div.masthead-content div.logo img {
@@ -108,14 +124,16 @@ hr {
         margin-top: -23%;
         margin-bottom: 42% !important;
     }
-
-    .navbar-collapse {
-        margin-top: 37px!important;
-    }
 }
 
 @media only screen and (max-width: 675px) {
+    header a {
+        font-size: 12px;
+    }
     nav#mainNav {
+        a {
+            font-size: 15px;
+        }
         .navbar-conteiner {
             width: 40%;
             margin-left: 0;

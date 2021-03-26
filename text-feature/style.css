@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap");
 div.text-feature {
   width: 100%;
-  background-color: #dfdfdf;
+  background: linear-gradient(224.77deg, rgba(117, 94, 165, 0.2) 0%, rgba(160, 95, 166, 0.2) 100%);
 }
 
 div.text-feature div.text-feature-content {
@@ -32,6 +32,10 @@ div.text-feature div.text-feature-content p {
 div.text-feature div.text-feature-content b {
   color: #333333;
   font-weight: bold;
+}
+
+div.text-feature div.text-feature-content a {
+  color: #0081A3;
 }
 
 @media only screen and (max-width: 768px) {

@@ -14,8 +14,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap");
 header {
   width: 100%;
+}
+
+header a {
+  font-family: "Quicksand";
+  font-size: 19px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 24px;
 }
 
 header div#announcements {
@@ -44,49 +53,55 @@ header div#announcements .navbar-nav {
           flex-direction: unset;
 }
 
-header div#announcements a {
+header div#announcements ul li a {
   color: #ffffff;
 }
 
-nav#mainNav {
+header div#announcements .nav-link.dropdown-toggle {
+  font-weight: bold;
+}
+
+header nav#mainNav {
   background: -webkit-gradient(linear, left top, right top, color-stop(-40%, #a05fa6), to(#755ea5));
   background: linear-gradient(0.25turn, #a05fa6 -40%, #755ea5);
   height: 99px;
   width: 100%;
 }
 
-nav#mainNav .row {
+header nav#mainNav .row {
   --bs-gutter-x: 0;
 }
 
-nav#mainNav button.navbar-toggler {
+header nav#mainNav button.navbar-toggler {
   position: absolute;
   right: 0;
   margin-right: 5%;
 }
 
-nav#mainNav .dropdown-menu {
+header nav#mainNav .dropdown-menu {
   border-top: solid white 3px;
   background-color: #a05fa6;
 }
 
-nav#mainNav ul li a {
+header nav#mainNav ul li a {
   color: #ffffff;
 }
 
-header div#announcements .navbar-conteiner, nav#mainNav .navbar-conteiner {
+header div#announcements .navbar-conteiner,
+header nav#mainNav .navbar-conteiner {
   width: 100%;
   margin-left: 20%;
   margin-right: 20%;
 }
 
-hr {
+header hr {
   margin: 0;
   border-top: solid rgba(255, 255, 255, 0.645) 1px;
 }
 
 @media only screen and (max-width: 992px) {
-  header div#announcements .navbar-conteiner, header nav#mainNav .navbar-conteiner {
+  header div#announcements .navbar-conteiner,
+  header nav#mainNav .navbar-conteiner {
     margin-left: 3% !important;
     margin-right: 3% !important;
   }
@@ -130,17 +145,23 @@ hr {
     width: 81%;
     height: 70px;
   }
+  nav#mainNav .navbar-collapse {
+    margin-top: 37px !important;
+  }
   div#masthead div.masthead-content div.logo img {
     margin-left: -5px;
     margin-top: -23%;
     margin-bottom: 42% !important;
   }
-  .navbar-collapse {
-    margin-top: 37px !important;
-  }
 }
 
 @media only screen and (max-width: 675px) {
+  header a {
+    font-size: 12px;
+  }
+  nav#mainNav a {
+    font-size: 15px;
+  }
   nav#mainNav .navbar-conteiner {
     width: 40%;
     margin-left: 0;
@@ -200,7 +221,8 @@ div#masthead div.masthead-content div.main-title h1 {
   font-family: "Quicksand";
   font-weight: bold;
   letter-spacing: 0;
-  line-height: 1.4em;
+  font-size: 56px;
+  line-height: 75px;
 }
 
 div#masthead div.masthead-content img.main-image {
@@ -232,6 +254,10 @@ div#masthead div.masthead-content div.information p {
 div#masthead div.masthead-content div.information b {
   color: #333333;
   font-weight: bold;
+}
+
+div#masthead div.masthead-content div.information a {
+  color: #0081A3;
 }
 
 @media only screen and (max-width: 768px) {
@@ -313,6 +339,7 @@ div#masthead div.masthead-content div.information .btn::after {
   div#masthead div.masthead-content div.main-title h1 {
     margin-top: auto;
     margin-bottom: auto;
+    font-size: 30px;
     line-height: 1.4em;
   }
   div#masthead div.masthead-content .col-5 {
@@ -332,6 +359,9 @@ div#masthead div.masthead-content div.information .btn::after {
     margin-top: auto;
     margin-bottom: auto;
     height: 22%;
+  }
+  div#masthead div.main-title h1 {
+    font-size: 27px !important;
   }
 }
 
@@ -397,7 +427,7 @@ div.one-box:after {
 
 div.one-box div.card {
   height: 280px;
-  background-color: #dfdfdf;
+  background: linear-gradient(224.77deg, rgba(117, 94, 165, 0.2) 0%, rgba(160, 95, 166, 0.2) 100%);
 }
 
 div.one-box div.card h3.title {
@@ -423,6 +453,10 @@ div.one-box div.card b {
   font-weight: bold;
 }
 
+div.one-box div.card a {
+  color: #0081A3;
+}
+
 @media only screen and (max-width: 768px) {
   div.one-box div.card .title {
     font-size: 30px;
@@ -430,12 +464,6 @@ div.one-box div.card b {
   div.one-box div.card p {
     font-size: 20px;
   }
-}
-
-div.one-box div.card div.degradee {
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(224.77deg, rgba(117, 94, 165, 0), rgba(160, 95, 166, 0.01));
 }
 
 div.one-box div.card div.card-body {
@@ -543,7 +571,7 @@ div.two-box {
 
 div.two-box div.card {
   height: 540px;
-  background-color: #dfdfdf;
+  background: linear-gradient(224.77deg, rgba(117, 94, 165, 0.2) 0%, rgba(160, 95, 166, 0.2) 100%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-top: 9px solid #755ea5;
@@ -556,12 +584,6 @@ div.two-box div.card:after {
   top: -9px;
   border-top: 9px solid #a05fa6;
   content: "";
-}
-
-div.two-box div.card div.degradee {
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(224.77deg, rgba(117, 94, 165, 0), rgba(160, 95, 166, 0.01));
 }
 
 div.two-box div.card div.card-body {
@@ -647,6 +669,10 @@ div.two-box div.card div.card-body b {
   font-weight: bold;
 }
 
+div.two-box div.card div.card-body a {
+  color: #0081A3;
+}
+
 @media only screen and (max-width: 768px) {
   div.two-box div.card div.card-body .title {
     font-size: 30px;
@@ -711,6 +737,10 @@ div.two-box div.card div.card-body p {
   font-weight: bold;
 }
 
+.text .basic-content a {
+  color: #0081A3;
+}
+
 @media only screen and (max-width: 768px) {
   .text .basic-content .title {
     font-size: 30px;
@@ -726,7 +756,7 @@ div.two-box div.card div.card-body p {
 
 div.text-feature {
   width: 100%;
-  background-color: #dfdfdf;
+  background: linear-gradient(224.77deg, rgba(117, 94, 165, 0.2) 0%, rgba(160, 95, 166, 0.2) 100%);
 }
 
 div.text-feature div.text-feature-content {
@@ -759,6 +789,10 @@ div.text-feature div.text-feature-content b {
   font-weight: bold;
 }
 
+div.text-feature div.text-feature-content a {
+  color: #0081A3;
+}
+
 @media only screen and (max-width: 768px) {
   div.text-feature div.text-feature-content .title {
     font-size: 30px;
@@ -783,7 +817,7 @@ div.two-box-image .col-md-6 {
 
 div.two-box-image div.card {
   height: 540px;
-  background-color: #dfdfdf;
+  background: linear-gradient(224.77deg, rgba(117, 94, 165, 0.2) 0%, rgba(160, 95, 166, 0.2) 100%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-top: 9px solid #755ea5;
@@ -798,13 +832,12 @@ div.two-box-image div.card:after {
   content: "";
 }
 
-div.two-box-image div.card div.degradee.search {
+div.two-box-image div.card div.search {
   width: 100%;
   height: 100%;
-  background: linear-gradient(224.77deg, rgba(117, 94, 165, 0), rgba(160, 95, 166, 0.01));
 }
 
-div.two-box-image div.card div.degradee.search::after {
+div.two-box-image div.card div.search::after {
   width: 100%;
   content: url(../assets/image/1_pbd_zsd_home/search_round_icon.svg);
   top: 0;
@@ -819,13 +852,12 @@ div.two-box-image div.card div.degradee.search::after {
   display: flex;
 }
 
-div.two-box-image div.card div.degradee.dna {
+div.two-box-image div.card div.dna {
   width: 100%;
   height: 100%;
-  background: linear-gradient(224.77deg, rgba(117, 94, 165, 0), rgba(160, 95, 166, 0.01));
 }
 
-div.two-box-image div.card div.degradee.dna::after {
+div.two-box-image div.card div.dna::after {
   width: 100%;
   content: url(../assets/image/1_pbd_zsd_home/dna_round_icon.svg);
   top: 0;
@@ -914,6 +946,10 @@ div.two-box-image div.card div.card-body b {
   font-weight: bold;
 }
 
+div.two-box-image div.card div.card-body a {
+  color: #0081A3;
+}
+
 @media only screen and (max-width: 768px) {
   div.two-box-image div.card div.card-body .title {
     font-size: 30px;
@@ -1000,6 +1036,10 @@ div.grid b {
   font-weight: bold;
 }
 
+div.grid a {
+  color: #0081A3;
+}
+
 @media only screen and (max-width: 768px) {
   div.grid .title {
     font-size: 30px;
@@ -1010,6 +1050,15 @@ div.grid b {
 }
 
 @media only screen and (max-width: 768px) {
+  div.grid .row {
+    width: 55%;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+  }
+  div.grid .col {
+    height: 350px;
+  }
   div.grid .item img {
     width: 128px;
     height: 128px;
@@ -1022,6 +1071,14 @@ div.grid b {
 }
 
 @media only screen and (max-width: 458px) {
+  div.grid .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
   div.grid .item img {
     width: 110px;
     height: 110px;
@@ -1105,6 +1162,10 @@ div.grid-expand b {
   font-weight: bold;
 }
 
+div.grid-expand a {
+  color: #0081A3;
+}
+
 @media only screen and (max-width: 768px) {
   div.grid-expand .title {
     font-size: 30px;
@@ -1134,7 +1195,7 @@ div.cta:after {
 }
 
 div.cta div.card {
-  background-color: #dfdfdf;
+  background: linear-gradient(224.77deg, rgba(117, 94, 165, 0.2) 0%, rgba(160, 95, 166, 0.2) 100%);
 }
 
 div.cta div.card h3.title {
@@ -1160,6 +1221,10 @@ div.cta div.card b {
   font-weight: bold;
 }
 
+div.cta div.card a {
+  color: #0081A3;
+}
+
 @media only screen and (max-width: 768px) {
   div.cta div.card .title {
     font-size: 30px;
@@ -1167,12 +1232,6 @@ div.cta div.card b {
   div.cta div.card p {
     font-size: 20px;
   }
-}
-
-div.cta div.card div.degradee {
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(224.77deg, rgba(117, 94, 165, 0), rgba(160, 95, 166, 0.01));
 }
 
 div.cta div.card div.card-body {
@@ -1263,43 +1322,6 @@ div.cta div.card div.card-body .title {
   }
 }
 
-.btn {
-  background-color: #0081a3;
-  -webkit-box-sizing: content-box;
-          box-sizing: content-box;
-  width: 448px;
-  height: -webkit-max-content;
-  height: -moz-max-content;
-  height: max-content;
-  color: #ffffff;
-  font-size: 24px;
-  font-weight: 500;
-}
-
-.btn::after {
-  content: url("../assets/image/0_home_general/button_chevron.svg");
-  margin-top: 1%;
-  position: relative;
-  -webkit-box-pack: right;
-      -ms-flex-pack: right;
-          justify-content: right;
-  float: right;
-  vertical-align: middle;
-}
-
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-  .btn {
-    width: 70%;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  .btn {
-    font-size: 20px;
-    width: 70%;
-  }
-}
-
 div.text-image-left {
   margin-left: 2%;
   margin-right: 2%;
@@ -1343,6 +1365,10 @@ div.text-image-left b {
   font-weight: bold;
 }
 
+div.text-image-left a {
+  color: #0081A3;
+}
+
 @media only screen and (max-width: 768px) {
   div.text-image-left .title {
     font-size: 30px;
@@ -1362,6 +1388,43 @@ div.text-image-left h4.title {
 }
 
 div.text-image-left .btn {
+  background-color: #0081a3;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  width: 448px;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+div.text-image-left .btn::after {
+  content: url("../assets/image/0_home_general/button_chevron.svg");
+  margin-top: 1%;
+  position: relative;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  float: right;
+  vertical-align: middle;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  div.text-image-left .btn {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  div.text-image-left .btn {
+    font-size: 20px;
+    width: 70%;
+  }
+}
+
+div.text-image-left .btn {
   margin-top: 3%;
 }
 
@@ -1371,6 +1434,18 @@ div.text-image-left .btn {
   }
   div.text-image-left p {
     font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  div.text-image-left div.content div.image {
+    margin: auto;
+  }
+  div.text-image-left div.content div.image img {
+    display: none !important;
+  }
+  div.text-image-left .btn {
+    margin-left: 10%;
   }
 }
 
@@ -1415,6 +1490,10 @@ div.text-image-right p {
 div.text-image-right b {
   color: #333333;
   font-weight: bold;
+}
+
+div.text-image-right a {
+  color: #0081A3;
 }
 
 @media only screen and (max-width: 768px) {
@@ -1482,6 +1561,18 @@ div.text-image-right .btn {
   }
   div.text-image-right p {
     font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  div.text-image-right div.content div.image {
+    margin: auto;
+  }
+  div.text-image-right div.content div.image img {
+    display: none !important;
+  }
+  div.text-image-right .btn {
+    margin-left: 10%;
   }
 }
 
@@ -1561,6 +1652,10 @@ div.number-list b {
   font-weight: bold;
 }
 
+div.number-list a {
+  color: #0081A3;
+}
+
 @media only screen and (max-width: 768px) {
   div.number-list .title {
     font-size: 30px;
@@ -1637,6 +1732,10 @@ div.table-green div.my-table p {
 div.table-green div.my-table b {
   color: #333333;
   font-weight: bold;
+}
+
+div.table-green div.my-table a {
+  color: #0081A3;
 }
 
 @media only screen and (max-width: 768px) {
@@ -1804,6 +1903,10 @@ div.table-blue div.my-table b {
   font-weight: bold;
 }
 
+div.table-blue div.my-table a {
+  color: #0081A3;
+}
+
 @media only screen and (max-width: 768px) {
   div.table-blue div.my-table .title {
     font-size: 30px;
@@ -1948,7 +2051,7 @@ div.gallery div.my-container div.target {
   margin-top: 2%;
   min-height: 61px;
   position: relative;
-  background: #dfdfdf;
+  background: linear-gradient(224.77deg, rgba(117, 94, 165, 0.2) 0%, rgba(160, 95, 166, 0.2) 100%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-top: 9px solid #755ea5;
@@ -1984,6 +2087,10 @@ div.gallery div.my-container div.target p {
 div.gallery div.my-container div.target b {
   color: #333333;
   font-weight: bold;
+}
+
+div.gallery div.my-container div.target a {
+  color: #0081A3;
 }
 
 @media only screen and (max-width: 768px) {
@@ -2038,7 +2145,7 @@ div.gallery div.my-container div.row img {
 }
 
 div.videos {
-  background: #dfdfdf;
+  background: linear-gradient(224.77deg, rgba(117, 94, 165, 0.2) 0%, rgba(160, 95, 166, 0.2) 100%);
 }
 
 div.videos h3.title {
@@ -2062,6 +2169,10 @@ div.videos p {
 div.videos b {
   color: #333333;
   font-weight: bold;
+}
+
+div.videos a {
+  color: #0081A3;
 }
 
 @media only screen and (max-width: 768px) {
@@ -2098,7 +2209,7 @@ footer {
   width: 100%;
   height: 100%;
   position: relative;
-  background-color: #dfdfdf;
+  background: linear-gradient(224.77deg, rgba(117, 94, 165, 0.2) 0%, rgba(160, 95, 166, 0.2) 100%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-top: 9px solid #755ea5;
@@ -2157,7 +2268,7 @@ footer div.footer-content div.ref-links a {
     width: 100%;
     height: 100%;
     position: relative;
-    background-color: #dfdfdf;
+    background-color: linear-gradient(224.77deg, rgba(117, 94, 165, 0.2) 0%, rgba(160, 95, 166, 0.2) 100%);
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     border-top: 4px solid #755ea5;
@@ -2170,8 +2281,22 @@ footer div.footer-content div.ref-links a {
     border-top: 4px solid #a05fa6;
     content: "";
   }
+  footer .image, footer .copyright, footer .ref-links {
+    margin-right: 0 !important;
+    padding-right: 0;
+  }
   footer div.footer-content {
     font-size: 8px;
+  }
+  footer div.footer-content p {
+    letter-spacing: 0;
+    font-weight: 400;
+    margin: auto;
+    line-height: 10px;
+  }
+  footer div.footer-content a {
+    height: 20;
+    margin-left: 8%;
   }
 }
 /*# sourceMappingURL=style.css.map */

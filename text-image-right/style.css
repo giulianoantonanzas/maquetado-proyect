@@ -42,6 +42,10 @@ div.text-image-right b {
   font-weight: bold;
 }
 
+div.text-image-right a {
+  color: #0081A3;
+}
+
 @media only screen and (max-width: 768px) {
   div.text-image-right .title {
     font-size: 30px;
@@ -107,6 +111,18 @@ div.text-image-right .btn {
   }
   div.text-image-right p {
     font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  div.text-image-right div.content div.image {
+    margin: auto;
+  }
+  div.text-image-right div.content div.image img {
+    display: none !important;
+  }
+  div.text-image-right .btn {
+    margin-left: 10%;
   }
 }
 /*# sourceMappingURL=style.css.map */

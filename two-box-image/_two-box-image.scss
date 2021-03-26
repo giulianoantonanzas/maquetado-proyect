@@ -6,7 +6,7 @@ div.two-box-image {
     }
     div.card {
         height: 540px;
-        background-color: $blocks-background-color;
+        background: $blocks-background-color;
         box-sizing: border-box;
         border-top: 9px solid $primary-color;
         &:after {
@@ -18,10 +18,9 @@ div.two-box-image {
             content: "";
         }
 
-        div.degradee.search {
+        div.search {
             width: 100%;
             height: 100%;
-            background: $background-degradee;
             &::after {
                 width: 100%;
                 content: url(../assets/image/1_pbd_zsd_home/search_round_icon.svg);
@@ -33,10 +32,9 @@ div.two-box-image {
                 display: flex;
             }
         }
-        div.degradee.dna {
+        div.dna {
             width: 100%;
             height: 100%;
-            background: $background-degradee;
             &::after {
                 width: 100%;
                 content: url(../assets/image/1_pbd_zsd_home/dna_round_icon.svg);

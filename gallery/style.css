@@ -15,7 +15,7 @@ div.gallery div.my-container div.target {
   margin-top: 2%;
   min-height: 61px;
   position: relative;
-  background: #dfdfdf;
+  background: linear-gradient(224.77deg, rgba(117, 94, 165, 0.2) 0%, rgba(160, 95, 166, 0.2) 100%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-top: 9px solid #755ea5;
@@ -51,6 +51,10 @@ div.gallery div.my-container div.target p {
 div.gallery div.my-container div.target b {
   color: #333333;
   font-weight: bold;
+}
+
+div.gallery div.my-container div.target a {
+  color: #0081A3;
 }
 
 @media only screen and (max-width: 768px) {

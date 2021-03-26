@@ -2,7 +2,7 @@ footer {
   width: 100%;
   height: 100%;
   position: relative;
-  background-color: #dfdfdf;
+  background: linear-gradient(224.77deg, rgba(117, 94, 165, 0.2) 0%, rgba(160, 95, 166, 0.2) 100%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-top: 9px solid #755ea5;
@@ -61,7 +61,7 @@ footer div.footer-content div.ref-links a {
     width: 100%;
     height: 100%;
     position: relative;
-    background-color: #dfdfdf;
+    background-color: linear-gradient(224.77deg, rgba(117, 94, 165, 0.2) 0%, rgba(160, 95, 166, 0.2) 100%);
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     border-top: 4px solid #755ea5;
@@ -74,8 +74,22 @@ footer div.footer-content div.ref-links a {
     border-top: 4px solid #a05fa6;
     content: "";
   }
+  footer .image, footer .copyright, footer .ref-links {
+    margin-right: 0 !important;
+    padding-right: 0;
+  }
   footer div.footer-content {
     font-size: 8px;
+  }
+  footer div.footer-content p {
+    letter-spacing: 0;
+    font-weight: 400;
+    margin: auto;
+    line-height: 10px;
+  }
+  footer div.footer-content a {
+    height: 20;
+    margin-left: 8%;
   }
 }
 /*# sourceMappingURL=style.css.map */

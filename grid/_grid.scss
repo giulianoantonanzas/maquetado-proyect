@@ -20,10 +20,17 @@ div.grid {
     @import "../assets/style/text";
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px) {
     div.grid {
-        .item img{
-            width:128px;
+        .row {
+            width: 55%;
+            display: inline-flex;
+        }
+        .col {
+            height: 350px;
+        }
+        .item img {
+            width: 128px;
             height: 128px;
             display: flex;
             margin-left: auto;
@@ -32,16 +39,20 @@ div.grid {
     }
 }
 
-@media only screen and (max-width: 458px){
+@media only screen and (max-width: 458px) {
     div.grid {
-        .item img{
-            width:110px;
+        .container {
+            display: flex;
+            justify-content: space-between;
+        }
+        .item img {
+            width: 110px;
             height: 110px;
             display: flex;
             margin-left: auto;
             margin-right: auto;
         }
-        p{
+        p {
             width: 160px;
         }
     }

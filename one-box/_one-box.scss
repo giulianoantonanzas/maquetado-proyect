@@ -16,12 +16,7 @@ div.one-box {
     div.card {
         @import "../assets/style/text";
         height: 280px;
-        background-color: $blocks-background-color;
-        div.degradee {
-            width: 100%;
-            height: 100%;
-            background: $background-degradee;
-        }
+        background: $blocks-background-color;
         div.card-body {
             //height: 280px;
             height: 100%;

@@ -68,6 +68,10 @@ div.grid-expand b {
   font-weight: bold;
 }
 
+div.grid-expand a {
+  color: #0081A3;
+}
+
 @media only screen and (max-width: 768px) {
   div.grid-expand .title {
     font-size: 30px;

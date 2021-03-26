@@ -10,7 +10,7 @@ div.text-image-right {
             margin-right: 3%;
         }
     }
-    @import '../assets/style/text';
+    @import "../assets/style/text";
     h4.title {
         font-family: "Quicksand";
         font-size: 30px;
@@ -20,7 +20,7 @@ div.text-image-right {
         color: $title-color;
     }
 
-    @import '../assets/style/button';
+    @import "../assets/style/button";
     .btn {
         margin-top: 3%;
     }
@@ -33,6 +33,22 @@ div.text-image-right {
         }
         p {
             font-size: 20px;
+        }
+    }
+}
+@media only screen and (max-width: 450px) {
+    div.text-image-right {
+        div.content {
+            div.image {
+                margin: auto;
+                img {
+                    display: none !important;
+                }
+            }
+        }
+
+        .btn {
+            margin-left: 10%;
         }
     }
 }

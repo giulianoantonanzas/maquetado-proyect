@@ -1,5 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap");
 header {
   width: 100%;
+}
+
+header a {
+  font-family: "Quicksand";
+  font-size: 19px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 24px;
 }
 
 header div#announcements {
@@ -28,49 +37,55 @@ header div#announcements .navbar-nav {
           flex-direction: unset;
 }
 
-header div#announcements a {
+header div#announcements ul li a {
   color: #ffffff;
 }
 
-nav#mainNav {
+header div#announcements .nav-link.dropdown-toggle {
+  font-weight: bold;
+}
+
+header nav#mainNav {
   background: -webkit-gradient(linear, left top, right top, color-stop(-40%, #a05fa6), to(#755ea5));
   background: linear-gradient(0.25turn, #a05fa6 -40%, #755ea5);
   height: 99px;
   width: 100%;
 }
 
-nav#mainNav .row {
+header nav#mainNav .row {
   --bs-gutter-x: 0;
 }
 
-nav#mainNav button.navbar-toggler {
+header nav#mainNav button.navbar-toggler {
   position: absolute;
   right: 0;
   margin-right: 5%;
 }
 
-nav#mainNav .dropdown-menu {
+header nav#mainNav .dropdown-menu {
   border-top: solid white 3px;
   background-color: #a05fa6;
 }
 
-nav#mainNav ul li a {
+header nav#mainNav ul li a {
   color: #ffffff;
 }
 
-header div#announcements .navbar-conteiner, nav#mainNav .navbar-conteiner {
+header div#announcements .navbar-conteiner,
+header nav#mainNav .navbar-conteiner {
   width: 100%;
   margin-left: 20%;
   margin-right: 20%;
 }
 
-hr {
+header hr {
   margin: 0;
   border-top: solid rgba(255, 255, 255, 0.645) 1px;
 }
 
 @media only screen and (max-width: 992px) {
-  header div#announcements .navbar-conteiner, header nav#mainNav .navbar-conteiner {
+  header div#announcements .navbar-conteiner,
+  header nav#mainNav .navbar-conteiner {
     margin-left: 3% !important;
     margin-right: 3% !important;
   }
@@ -114,17 +129,23 @@ hr {
     width: 81%;
     height: 70px;
   }
+  nav#mainNav .navbar-collapse {
+    margin-top: 37px !important;
+  }
   div#masthead div.masthead-content div.logo img {
     margin-left: -5px;
     margin-top: -23%;
     margin-bottom: 42% !important;
   }
-  .navbar-collapse {
-    margin-top: 37px !important;
-  }
 }
 
 @media only screen and (max-width: 675px) {
+  header a {
+    font-size: 12px;
+  }
+  nav#mainNav a {
+    font-size: 15px;
+  }
   nav#mainNav .navbar-conteiner {
     width: 40%;
     margin-left: 0;

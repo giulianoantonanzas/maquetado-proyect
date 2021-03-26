@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap");
 div.videos {
-  background: #dfdfdf;
+  background: linear-gradient(224.77deg, rgba(117, 94, 165, 0.2) 0%, rgba(160, 95, 166, 0.2) 100%);
 }
 
 div.videos h3.title {
@@ -24,6 +24,10 @@ div.videos p {
 div.videos b {
   color: #333333;
   font-weight: bold;
+}
+
+div.videos a {
+  color: #0081A3;
 }
 
 @media only screen and (max-width: 768px) {

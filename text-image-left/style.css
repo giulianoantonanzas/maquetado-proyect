@@ -1,41 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap");
-.btn {
-  background-color: #0081a3;
-  -webkit-box-sizing: content-box;
-          box-sizing: content-box;
-  width: 448px;
-  height: -webkit-max-content;
-  height: -moz-max-content;
-  height: max-content;
-  color: #ffffff;
-  font-size: 24px;
-  font-weight: 500;
-}
-
-.btn::after {
-  content: url("../assets/image/0_home_general/button_chevron.svg");
-  margin-top: 1%;
-  position: relative;
-  -webkit-box-pack: right;
-      -ms-flex-pack: right;
-          justify-content: right;
-  float: right;
-  vertical-align: middle;
-}
-
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-  .btn {
-    width: 70%;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  .btn {
-    font-size: 20px;
-    width: 70%;
-  }
-}
-
 div.text-image-left {
   margin-left: 2%;
   margin-right: 2%;
@@ -79,6 +42,10 @@ div.text-image-left b {
   font-weight: bold;
 }
 
+div.text-image-left a {
+  color: #0081A3;
+}
+
 @media only screen and (max-width: 768px) {
   div.text-image-left .title {
     font-size: 30px;
@@ -98,6 +65,43 @@ div.text-image-left h4.title {
 }
 
 div.text-image-left .btn {
+  background-color: #0081a3;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  width: 448px;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+div.text-image-left .btn::after {
+  content: url("../assets/image/0_home_general/button_chevron.svg");
+  margin-top: 1%;
+  position: relative;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  float: right;
+  vertical-align: middle;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  div.text-image-left .btn {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  div.text-image-left .btn {
+    font-size: 20px;
+    width: 70%;
+  }
+}
+
+div.text-image-left .btn {
   margin-top: 3%;
 }
 
@@ -107,6 +111,18 @@ div.text-image-left .btn {
   }
   div.text-image-left p {
     font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  div.text-image-left div.content div.image {
+    margin: auto;
+  }
+  div.text-image-left div.content div.image img {
+    display: none !important;
+  }
+  div.text-image-left .btn {
+    margin-left: 10%;
   }
 }
 /*# sourceMappingURL=style.css.map */

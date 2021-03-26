@@ -38,3 +38,16 @@
 <li>ARREGLAR navbar verde mobile</li>
 <li>conseguir el lineal gradient precicio de las cards</li>
 </ul>
+
+
+<h2>26/03</h2>
+<ul>
+<li>fuentes aplicadas en el navbar <b>UPDATE</b></li>
+<li>tamaño de fuentes aplicados en navbar <b>UPDATE</b></li>
+<li>tamaño de fuentes aplicados en masthead arreglado <b>UPDATE</b></li>
+<li> implementacion de degradado en las box ,cta , footer , y text con background gris <b>UPDATE</b></li>
+<li> Ajuste del footer , se implemento elementos de parrafo y se fija a mobil <b>UPDATE</b></li>
+<li> se agrego el color de ancla apropiado para los links <b>UPDATE</b></li>
+<li> se ajusto el grid a mobile , ahora se separa en 2 columnas <b>UPDATE</b></li>
+<li> se ajusto el text-image-left y right para mobile (mas haya de que no haya un diseño. Se quito la imagen) <b>UPDATE</b></li>
+</ul>

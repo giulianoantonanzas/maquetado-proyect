@@ -10,7 +10,7 @@ div.text-image-left {
             margin-right: 6%;
         }
     }
-    @import '../assets/style/text';
+    @import "../assets/style/text";
     h4.title {
         font-family: "Quicksand";
         font-size: 30px;
@@ -19,7 +19,7 @@ div.text-image-left {
         line-height: 50px;
         color: $title-color;
     }
-
+    @import "../assets/style/button";
     .btn {
         margin-top: 3%;
     }
@@ -32,6 +32,22 @@ div.text-image-left {
         }
         p {
             font-size: 20px;
+        }
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    div.text-image-left {
+        div.content {
+            div.image {
+                margin: auto;
+                img {
+                    display: none !important;
+                }
+            }
+        }
+        .btn {
+            margin-left: 10%;
         }
     }
 }

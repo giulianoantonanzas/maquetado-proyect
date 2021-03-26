@@ -53,6 +53,10 @@ div.grid b {
   font-weight: bold;
 }
 
+div.grid a {
+  color: #0081A3;
+}
+
 @media only screen and (max-width: 768px) {
   div.grid .title {
     font-size: 30px;
@@ -63,6 +67,15 @@ div.grid b {
 }
 
 @media only screen and (max-width: 768px) {
+  div.grid .row {
+    width: 55%;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+  }
+  div.grid .col {
+    height: 350px;
+  }
   div.grid .item img {
     width: 128px;
     height: 128px;
@@ -75,6 +88,14 @@ div.grid b {
 }
 
 @media only screen and (max-width: 458px) {
+  div.grid .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
   div.grid .item img {
     width: 110px;
     height: 110px;

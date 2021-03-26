@@ -6,12 +6,14 @@ $title-color: #003d4c;
 $route-img: "../image/";
 
 $two-colores-lineal: linear-gradient(0.25turn, $primary-color-light 10%, $primary-color);
-$blocks-background-color: #dfdfdf;
+$background-degradee: linear-gradient(224.77deg, rgba(117, 94, 165, 0.2) 0%, rgba(160, 95, 166, 0.2) 100%);
+$blocks-background-color: $background-degradee;
+//$blocks-background-color: #dfdfdf;
 
 $p-color: #333333;
 
 //$background-degradee:linear-gradient(90deg, rgba(160,94,165,0.05926120448179273) 0%, rgba(142,94,165,0.0984768907563025) 100%);
-$background-degradee: linear-gradient(224.77deg, rgba(117, 94, 165, 0), rgba(160, 95, 166, 0.01));
+
 
 $text-propeties: (
     color:
