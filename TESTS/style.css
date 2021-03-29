@@ -149,14 +149,14 @@ header hr {
 @media only screen and (max-width: 768px) {
   nav#mainNav {
     width: 81%;
-    height: 70px;
+    height: 70px !important;
   }
   nav#mainNav .navbar-collapse {
     margin-top: 37px !important;
   }
   div#masthead div.masthead-content div.logo img {
     margin-left: -5px;
-    margin-top: -23%;
+    margin-top: -19%;
     margin-bottom: 42% !important;
   }
 }
@@ -300,7 +300,7 @@ div#masthead div.masthead-content div.information .btn::after {
   vertical-align: middle;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 1324px) {
   div#masthead div.masthead-content div.information .btn {
     width: 70%;
   }
@@ -327,7 +327,6 @@ div#masthead div.masthead-content div.information .btn::after {
     margin-bottom: 50%;
   }
   div#masthead div.masthead-content div.main-title {
-    height: 28%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -346,7 +345,6 @@ div#masthead div.masthead-content div.information .btn::after {
   div#masthead div.masthead-content div.main-title h1 {
     margin-top: auto;
     margin-bottom: auto;
-    font-size: 30px;
     line-height: 1.4em;
   }
   div#masthead div.masthead-content .col-5 {
@@ -358,7 +356,7 @@ div#masthead div.masthead-content div.information .btn::after {
   }
 }
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 575px) {
   div#masthead div.masthead-content {
     min-height: 250px;
   }
@@ -379,6 +377,9 @@ div#masthead div.masthead-content div.information .btn::after {
 }
 
 @media only screen and (min-width: 414px) and (max-width: 768px) {
+  div#masthead div.masthead-content div.main-title {
+    min-height: 300px;
+  }
   div#masthead div.masthead-content div.logo img {
     width: 25%;
     height: 0%;
@@ -386,8 +387,8 @@ div#masthead div.masthead-content div.information .btn::after {
 }
 
 @media only screen and (max-width: 320px) {
-  div#masthead div.masthead-content {
-    background-size: 89%;
+  div#masthead div.masthead-content div.main-title h1 {
+    font-size: 25px !important;
   }
 }
 
@@ -522,7 +523,7 @@ div.one-box div.card div.card-body .btn::after {
   vertical-align: middle;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 1324px) {
   div.one-box div.card div.card-body .btn {
     width: 70%;
   }
@@ -632,7 +633,7 @@ div.two-box div.card div.card-body .btn::after {
   vertical-align: middle;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 1324px) {
   div.two-box div.card div.card-body .btn {
     width: 70%;
   }
@@ -893,7 +894,7 @@ div.two-box-image div.card div.card-body .btn::after {
   vertical-align: middle;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 1324px) {
   div.two-box-image div.card div.card-body .btn {
     width: 70%;
   }
@@ -954,7 +955,6 @@ div.two-box-image div.card div.card-body p {
 
 @media only screen and (max-width: 768px) {
   div.two-box-image div.card {
-    margin-bottom: 15%;
     border-top: 4px solid #755ea5;
   }
   div.two-box-image div.card:after {
@@ -1058,7 +1058,7 @@ div.grid a {
   }
 }
 
-@media only screen and (max-width: 458px) {
+@media only screen and (max-width: 575px) {
   div.grid .row {
     width: 55%;
     display: -webkit-inline-box;
@@ -1274,7 +1274,7 @@ div.cta div.card div.card-body .btn::after {
   vertical-align: middle;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 1324px) {
   div.cta div.card div.card-body .btn {
     width: 70%;
   }
@@ -1409,7 +1409,7 @@ div.text-image-left .btn::after {
   vertical-align: middle;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 1324px) {
   div.text-image-left .btn {
     width: 70%;
   }
@@ -1536,7 +1536,7 @@ div.text-image-right .btn::after {
   vertical-align: middle;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 1324px) {
   div.text-image-right .btn {
     width: 70%;
   }
@@ -2249,8 +2249,7 @@ footer div.footer-content div.image {
   margin-right: 4%;
 }
 
-footer div.footer-content div.image 1%
-img {
+footer div.footer-content div.image img {
   background-size: contain;
   background-repeat: no-repeat;
   width: 100%;

@@ -100,7 +100,7 @@ div.cta div.card div.card-body .btn::after {
   vertical-align: middle;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 1324px) {
   div.cta div.card div.card-body .btn {
     width: 70%;
   }

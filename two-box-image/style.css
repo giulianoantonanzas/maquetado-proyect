@@ -72,7 +72,7 @@ div.two-box-image div.card div.card-body .btn::after {
   vertical-align: middle;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 1324px) {
   div.two-box-image div.card div.card-body .btn {
     width: 70%;
   }
@@ -133,7 +133,6 @@ div.two-box-image div.card div.card-body p {
 
 @media only screen and (max-width: 768px) {
   div.two-box-image div.card {
-    margin-bottom: 15%;
     border-top: 4px solid #755ea5;
   }
   div.two-box-image div.card:after {

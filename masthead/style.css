@@ -124,7 +124,7 @@ div#masthead div.masthead-content div.information .btn::after {
   vertical-align: middle;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 1324px) {
   div#masthead div.masthead-content div.information .btn {
     width: 70%;
   }
@@ -151,7 +151,6 @@ div#masthead div.masthead-content div.information .btn::after {
     margin-bottom: 50%;
   }
   div#masthead div.masthead-content div.main-title {
-    height: 28%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -170,7 +169,6 @@ div#masthead div.masthead-content div.information .btn::after {
   div#masthead div.masthead-content div.main-title h1 {
     margin-top: auto;
     margin-bottom: auto;
-    font-size: 30px;
     line-height: 1.4em;
   }
   div#masthead div.masthead-content .col-5 {
@@ -182,7 +180,7 @@ div#masthead div.masthead-content div.information .btn::after {
   }
 }
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 575px) {
   div#masthead div.masthead-content {
     min-height: 250px;
   }
@@ -203,6 +201,9 @@ div#masthead div.masthead-content div.information .btn::after {
 }
 
 @media only screen and (min-width: 414px) and (max-width: 768px) {
+  div#masthead div.masthead-content div.main-title {
+    min-height: 300px;
+  }
   div#masthead div.masthead-content div.logo img {
     width: 25%;
     height: 0%;
@@ -210,8 +211,8 @@ div#masthead div.masthead-content div.information .btn::after {
 }
 
 @media only screen and (max-width: 320px) {
-  div#masthead div.masthead-content {
-    background-size: 89%;
+  div#masthead div.masthead-content div.main-title h1 {
+    font-size: 25px !important;
   }
 }
 

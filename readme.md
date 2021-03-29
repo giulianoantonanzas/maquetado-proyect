@@ -52,8 +52,10 @@
 <ul>
 <li>Se cambio two-box-image, ya no se usa la propiedad after y se creo simplemente un div en donde esta puesta esa imagen. <b>UPDATE</b></li>
 <li>grid adaptable a tablet <b>UPDATE</b></li>
-<li>navbars mejor adaptado para tablet y se saco el ancho 100% del navbar morado, ya que no mostraba el logo al ser movile<b>UPDATE</b></li>
+<li>navbars mejor adaptado para tablet y se saco el ancho 100% del navbar morado, ya que no mostraba el logo al ser movile , tambien se achico acorde al diseño<b>UPDATE</b></li>
 <li>Pequeño detalle arreglado en grind-expand, se centra bien. <b>UPDATE</b></li>
+<li>Cambio en la dimencion de los botones, para que se adapte mejor a diferentes resoluciones <b>UPDATE</b></li>
 <li>Pequeño cambio con el footer, se achico espacio de parrafo. <b>UPDATE</b></li>
-
+<li>se quito inperfeccioens del masthead desde la persepectiva responsive. <b>UPDATE</b></li>
+<li>se quito un margin responsive a two-box-image que era innecesario. <b>UPDATE</b></li>
 </ul>

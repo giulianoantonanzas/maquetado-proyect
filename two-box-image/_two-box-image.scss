@@ -50,7 +50,7 @@ div.two-box-image {
 @media only screen and (max-width: 768px) {
     div.two-box-image {
         div.card {
-            margin-bottom: 15%;
+            //margin-bottom: 15%;
             border-top: 4px solid $primary-color;
             &:after {
                 position: absolute;
