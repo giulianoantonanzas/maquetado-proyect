@@ -29,7 +29,6 @@ header a {
 
 header div#announcements {
   background-color: #789c49;
-  width: 100%;
 }
 
 header div#announcements .navbar-collapse {
@@ -65,7 +64,6 @@ header nav#mainNav {
   background: -webkit-gradient(linear, left top, right top, color-stop(-40%, #a05fa6), to(#755ea5));
   background: linear-gradient(0.25turn, #a05fa6 -40%, #755ea5);
   height: 99px;
-  width: 100%;
 }
 
 header nav#mainNav .row {
@@ -97,6 +95,14 @@ header nav#mainNav .navbar-conteiner {
 header hr {
   margin: 0;
   border-top: solid rgba(255, 255, 255, 0.645) 1px;
+}
+
+@media only screen and (max-width: 1024px) {
+  header div#announcements .navbar-conteiner,
+  header nav#mainNav .navbar-conteiner {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
 }
 
 @media only screen and (max-width: 992px) {
@@ -840,18 +846,7 @@ div.two-box-image div.card:after {
   content: "";
 }
 
-div.two-box-image div.card div.search {
-  width: 100%;
-  height: 100%;
-}
-
-div.two-box-image div.card div.search::after {
-  width: 100%;
-  content: url(../assets/image/1_pbd_zsd_home/search_round_icon.svg);
-  top: 0;
-  position: absolute;
-  top: -120px;
-  z-index: 1;
+div.two-box-image div.card div.image {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -860,24 +855,10 @@ div.two-box-image div.card div.search::after {
   display: flex;
 }
 
-div.two-box-image div.card div.dna {
-  width: 100%;
-  height: 100%;
-}
-
-div.two-box-image div.card div.dna::after {
-  width: 100%;
-  content: url(../assets/image/1_pbd_zsd_home/dna_round_icon.svg);
-  top: 0;
-  position: absolute;
-  top: -120px;
+div.two-box-image div.card div.image img {
   z-index: 1;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  top: -120px;
+  position: absolute;
 }
 
 div.two-box-image div.card div.card-body {
@@ -990,6 +971,14 @@ div.two-box-image div.card div.card-body p {
   }
 }
 
+@media only screen and (max-width: 450px) {
+  div.two-box-image div.card div.card-body div.image img {
+    top: -100px;
+    width: 176px;
+    height: 176px;
+  }
+}
+
 div.grid {
   width: 100%;
   margin-top: 2%;
@@ -1058,27 +1047,27 @@ div.grid a {
 }
 
 @media only screen and (max-width: 768px) {
+  div.grid .item img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    width: 128px;
+    height: 128px;
+  }
+}
+
+@media only screen and (max-width: 458px) {
   div.grid .row {
     width: 55%;
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
   }
-  div.grid .col {
+  div.grid .row .col {
     height: 350px;
   }
-  div.grid .item img {
-    width: 128px;
-    height: 128px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
-@media only screen and (max-width: 458px) {
   div.grid .container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1109,6 +1098,7 @@ div.grid-expand {
 
 div.grid-expand .row {
   width: 100%;
+  margin: auto;
 }
 
 div.grid-expand img {
@@ -2242,13 +2232,17 @@ footer div.footer-content {
           align-items: center;
   padding-left: 2%;
   padding-right: 2%;
-  padding-top: 2%;
-  padding-bottom: 2%;
+  padding-top: 1%;
+  padding-bottom: 1%;
   font-family: Quicksand;
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.67px;
   line-height: 18px;
+}
+
+footer div.footer-content p {
+  margin-bottom: 2px;
 }
 
 footer div.footer-content div.image {

@@ -46,3 +46,14 @@
 <li> se ajusto el text-image-left y right para mobile (mas haya de que no haya un diseño. Se quito la imagen) <b>UPDATE</b></li>
 
 </ul>
+
+
+<h2>29/03</h2>
+<ul>
+<li>Se cambio two-box-image, ya no se usa la propiedad after y se creo simplemente un div en donde esta puesta esa imagen. <b>UPDATE</b></li>
+<li>grid adaptable a tablet <b>UPDATE</b></li>
+<li>navbars mejor adaptado para tablet y se saco el ancho 100% del navbar morado, ya que no mostraba el logo al ser movile<b>UPDATE</b></li>
+<li>Pequeño detalle arreglado en grind-expand, se centra bien. <b>UPDATE</b></li>
+<li>Pequeño cambio con el footer. Vi que estaba un poco exedido de tamaño, se achico. <b>UPDATE</b></li>
+
+</ul>

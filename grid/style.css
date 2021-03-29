@@ -67,27 +67,27 @@ div.grid a {
 }
 
 @media only screen and (max-width: 768px) {
+  div.grid .item img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    width: 128px;
+    height: 128px;
+  }
+}
+
+@media only screen and (max-width: 458px) {
   div.grid .row {
     width: 55%;
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
   }
-  div.grid .col {
+  div.grid .row .col {
     height: 350px;
   }
-  div.grid .item img {
-    width: 128px;
-    height: 128px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
-@media only screen and (max-width: 458px) {
   div.grid .container {
     display: -webkit-box;
     display: -ms-flexbox;

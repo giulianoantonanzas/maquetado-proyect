@@ -13,7 +13,6 @@ header a {
 
 header div#announcements {
   background-color: #789c49;
-  width: 100%;
 }
 
 header div#announcements .navbar-collapse {
@@ -49,7 +48,6 @@ header nav#mainNav {
   background: -webkit-gradient(linear, left top, right top, color-stop(-40%, #a05fa6), to(#755ea5));
   background: linear-gradient(0.25turn, #a05fa6 -40%, #755ea5);
   height: 99px;
-  width: 100%;
 }
 
 header nav#mainNav .row {
@@ -81,6 +79,14 @@ header nav#mainNav .navbar-conteiner {
 header hr {
   margin: 0;
   border-top: solid rgba(255, 255, 255, 0.645) 1px;
+}
+
+@media only screen and (max-width: 1024px) {
+  header div#announcements .navbar-conteiner,
+  header nav#mainNav .navbar-conteiner {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
 }
 
 @media only screen and (max-width: 992px) {

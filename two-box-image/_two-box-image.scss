@@ -18,32 +18,13 @@ div.two-box-image {
             content: "";
         }
 
-        div.search {
-            width: 100%;
-            height: 100%;
-            &::after {
-                width: 100%;
-                content: url(../assets/image/1_pbd_zsd_home/search_round_icon.svg);
-                top: 0;
-                position: absolute;
-                top: -120px;
+        div.image {
+            justify-content: center;
+            display: flex;
+            img {
                 z-index: 1;
-                justify-content: center;
-                display: flex;
-            }
-        }
-        div.dna {
-            width: 100%;
-            height: 100%;
-            &::after {
-                width: 100%;
-                content: url(../assets/image/1_pbd_zsd_home/dna_round_icon.svg);
-                top: 0;
-                position: absolute;
                 top: -120px;
-                z-index: 1;
-                justify-content: center;
-                display: flex;
+                position: absolute;
             }
         }
         div.card-body {
@@ -83,6 +64,16 @@ div.two-box-image {
                 margin-left: 10% !important;
                 margin-right: 10% !important;
             }
+        }
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    div.two-box-image div.card div.card-body {
+        div.image img {
+            top: -100px;
+            width: 176px;
+            height: 176px;
         }
     }
 }

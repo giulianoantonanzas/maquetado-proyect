@@ -11,8 +11,6 @@ header {
 
     div#announcements {
         background-color: $secundary-color;
-        //height: 51px;
-        width: 100%;
         .navbar-collapse {
             z-index: 1;
             background-color: $secundary-color;
@@ -38,7 +36,6 @@ header {
     nav#mainNav {
         background: linear-gradient(0.25turn, $primary-color-light -40%, $primary-color);
         height: 99px;
-        width: 100%;
         .row {
             --bs-gutter-x: 0; //pequeña correccion de boostrap
         }
@@ -65,6 +62,14 @@ header {
     hr {
         margin: 0;
         border-top: solid rgba(255, 255, 255, 0.645) 1px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    header div#announcements .navbar-conteiner,
+    header nav#mainNav .navbar-conteiner {
+        margin-left: 10%;
+        margin-right: 10%;
     }
 }
 

@@ -22,25 +22,26 @@ div.grid {
 
 @media only screen and (max-width: 768px) {
     div.grid {
-        .row {
-            width: 55%;
-            display: inline-flex;
-        }
-        .col {
-            height: 350px;
-        }
         .item img {
+            display: flex;
+            margin-right: auto;
+            margin-left: auto;
             width: 128px;
             height: 128px;
-            display: flex;
-            margin-left: auto;
-            margin-right: auto;
         }
     }
 }
 
 @media only screen and (max-width: 458px) {
     div.grid {
+        .row {
+            width: 55%;
+            display: inline-flex;
+
+            .col {
+                height: 350px;
+            }
+        }
         .container {
             display: flex;
             justify-content: space-between;
