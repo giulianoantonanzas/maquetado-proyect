@@ -54,6 +54,6 @@
 <li>grid adaptable a tablet <b>UPDATE</b></li>
 <li>navbars mejor adaptado para tablet y se saco el ancho 100% del navbar morado, ya que no mostraba el logo al ser movile<b>UPDATE</b></li>
 <li>Pequeño detalle arreglado en grind-expand, se centra bien. <b>UPDATE</b></li>
-<li>Pequeño cambio con el footer. Vi que estaba un poco exedido de tamaño, se achico. <b>UPDATE</b></li>
+<li>Pequeño cambio con el footer, se achico espacio de parrafo. <b>UPDATE</b></li>
 
 </ul>
