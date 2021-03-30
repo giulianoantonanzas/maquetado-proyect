@@ -59,3 +59,9 @@
 <li>se quito inperfeccioens del masthead desde la persepectiva responsive. <b>UPDATE</b></li>
 <li>se quito un margin responsive a two-box-image que era innecesario. <b>UPDATE</b></li>
 </ul>
+
+<h2>30/03</h2>
+<ul> 
+<li>Se resolvio un pequeño error que se vio en el masthead , cuando se ponia la resolucion en w 414px, el texto se rompia.</li>
+<li>Pequeño cambio en el footer. Se quito un padding innecesario y se adapta mejor a la resolucion mas pequeña de celular.</li>
+</ul>

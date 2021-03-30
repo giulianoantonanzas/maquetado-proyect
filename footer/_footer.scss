@@ -18,7 +18,7 @@ footer {
         align-self: auto;
         align-items: center;
         padding-left: 2%;
-        padding-right: 2%;
+        //padding-right: 2%;
         padding-top: 2%;
         padding-bottom: 2%;
         font-family: Quicksand;
@@ -63,9 +63,12 @@ footer {
             border-top: 4px solid $primary-color-light;
             content: "";
         }
-        .image , .copyright ,.ref-links{
+        /*.image , .copyright ,.ref-links{
             margin-right: 0!important;
             padding-right: 0;
+        }*/
+        .row{
+            --bs-gutter-x: unset;
         }
         div.footer-content {
             font-size: 8px;
@@ -76,9 +79,15 @@ footer {
                 line-height: 10px;
             }
             a{
-                height:20 ;
                 margin-left: 8%;
             }
+        }
+    }
+}
+@media only screen and (max-width: 360px){
+    footer{
+        .d-flex{
+            display: block!important;
         }
     }
 }
