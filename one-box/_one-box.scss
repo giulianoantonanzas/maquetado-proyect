@@ -15,10 +15,10 @@ div.one-box {
     }
     div.card {
         @import "../assets/style/text";
-        height: 280px;
+        padding: 3%;
         background: $blocks-background-color;
         div.card-body {
-            //height: 280px;
+
             height: 100%;
             align-items: center;
             margin-left: 6%;

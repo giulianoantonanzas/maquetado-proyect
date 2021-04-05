@@ -441,7 +441,7 @@ div.one-box:after {
 }
 
 div.one-box div.card {
-  height: 280px;
+  padding: 3%;
   background: linear-gradient(224.77deg, rgba(117, 94, 165, 0.2) 0%, rgba(160, 95, 166, 0.2) 100%);
 }
 

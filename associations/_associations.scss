@@ -1,0 +1,32 @@
+div.associations {
+    margin-left: 2%;
+    margin-right: 2%;
+    @import "../assets/style/text";
+    .presentation {
+        width: 60%;
+        margin-bottom: 3%;
+        h3 {
+            margin-bottom: 3%;
+        }
+    }
+    .row {
+        padding: 3% 0%;
+        .col-md-4 {
+            margin-right: 5%;
+        }
+        .col-md {
+            align-self: center;
+        }
+    }
+    .footer {
+        text-align: center;
+        margin: 2% 2%;
+    }
+
+    @media only screen and (max-width: 768px) {
+        .presentation {
+            text-align: center;
+            width: 100%;
+        }
+    }
+}

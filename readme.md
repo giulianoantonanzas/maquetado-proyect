@@ -70,4 +70,6 @@
 <h2>05/04</h2>
 <ul> 
 <li>creacion de one-box-image <b>NEW<b></li>
+<li>se quito el height y se puso en su lugar un padding 3% en one-box (esto hara que no se rompa el bloque y que se mantenga el tamaño) <b>UPDATE<b></li>
+<li>creacion de bloque Associations <b>NEW<b></li>
 </ul>
