@@ -65,3 +65,9 @@
 <li>Se resolvio un pequeño error que se vio en el masthead , cuando se ponia la resolucion en w 414px, el texto se rompia.</li>
 <li>Pequeño cambio en el footer. Se quito un padding innecesario y se adapta mejor a la resolucion mas pequeña de celular.</li>
 </ul>
+
+
+<h2>05/04</h2>
+<ul> 
+<li>creacion de one-box-image <b>NEW<b></li>
+</ul>
